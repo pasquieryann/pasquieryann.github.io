@@ -1,0 +1,88 @@
+#main-nav.navbar-default {
+	margin-bottom: 0;
+}
+
+#main-nav.navbar-default .navbar-brand {
+	padding: 0;
+}
+
+
+
+#menu_logo{
+	max-width:200px;
+
+}
+
+.navbar-toggler{
+	border-color:white !important;
+}
+
+.bg-black{
+	background-color: black;
+}
+
+
+
+.navbar-dark2 .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark2 .navbar-toggler {
+  color: white;
+  border-color: white;
+}
+
+.navbar-dark2 .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+nav ul li a:first-of-type{
+	margin-top:10px;
+}
+
+
+nav ul li a{
+	font-family: Montserrat-Black;
+	color:white;
+	font-size: 20px;
+	text-decoration: none;
+	padding-right: 25px !important;
+	padding-left: 25px !important;
+	transition: 0.1s ease-out;
+}
+
+
+
+nav ul li a:hover {
+  color: white;
+  text-shadow: 0px 0px 20px white;
+  transition: neon1 0.1s ease-in-out infinite alternate;
+}
+
+.sticky-bottom{
+	overflow: hidden;
+	position:sticky;
+	top:100%;
+
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+@media only screen and (min-width: 600px) {
+.navbar-brand{
+	position: absolute;
+}
+
+#nav{
+	padding:20px;
+}
+
+nav ul li a:first-of-type{
+	margin-top:0px;
+}
+
+
+
+}

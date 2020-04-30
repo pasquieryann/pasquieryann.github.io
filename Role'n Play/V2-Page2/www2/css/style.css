@@ -1,0 +1,488 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+	color: black;
+	font-family: Montserrat-Regular;
+	font-size: 20px;
+
+}
+
+
+@font-face {
+ font-family: "Montserrat-Regular";
+ src: url("../font/Montserrat-Regular.otf") format('truetype');
+ }
+
+@font-face{
+ font-family: "Montserrat-ExtraBold";
+ src: url("../font/Montserrat-ExtraBold.otf") format('truetype');
+}
+
+@font-face{
+ font-family: "Montserrat-Black";
+ src: url("../font/Montserrat-Black.otf") format('truetype');
+}
+
+@font-face{
+ font-family: "Montserrat-Light";
+ src: url("../font/Montserrat-Light.otf") format('truetype');
+}
+
+@font-face{
+ font-family: "Montserrat-Bold";
+ src: url("../font/Montserrat-Bold.otf") format('truetype');
+}
+
+
+b,h1,h2 {
+	font-family: Montserrat-Black;
+}
+
+#lightbold{
+	font-family: Montserrat-Bold;
+}
+
+.text_margin{
+	margin:0 30px;
+}
+
+
+#img_team{
+	width: 100%;
+	height: 30vh;
+    object-position: 50% 35%;
+	object-fit: cover;
+}
+
+#img_banniere{
+	width: 100%;
+}
+
+#jdr_img{
+	position:relative;
+	right:5%;
+	max-width: 100%
+}
+
+#img_cosplay{
+	width: 100%;
+}
+
+#img_footer{
+	width: 100%;
+}
+
+#home {
+	color: white;
+}
+
+
+.top-content{
+	height: 100vh;
+
+}
+
+#logo_top{
+	width:40%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top:35vh;
+	filter: drop-shadow(0px 0px 3px black);
+}
+
+
+#phrases {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin:0px 20px;
+    top:45vh;
+    font-size: 28px;
+    font-family: Montserrat-Light;
+    filter: drop-shadow(0px 0px 5px black);
+
+}
+
+#phrases p {
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+#phrases p {
+    animation: rotatephrases 18s ease-in 0s infinite;
+}
+ 
+#phrases p:nth-child(2) {
+    animation-delay: 6s;
+}
+ 
+#phrases p:nth-child(3) {
+    animation-delay: 12s;
+}
+ 
+@keyframes rotatephrases {
+    0%   { opacity: 0; }
+    4%   { opacity: 1; }
+    21%  { opacity: 1; }
+    25%  { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+#teaser{
+  position: fixed; 
+  right: -100%; 
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100vh;
+  width: auto; 
+  height: auto; 
+  z-index: -100;
+  background: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+section {
+	background-color: white;
+	padding-top: 30px;	
+}
+
+.iframe_container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; 
+}
+
+
+.responsive_iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#jeux_debutants img{
+	max-width:100%;
+}
+
+
+
+.figure{
+	border-radius: 10px;
+	background-color: black;
+	box-shadow: 0 1px 4px grey;
+}
+ 
+.v-align{
+	color:white;
+    height: 4em;
+    display: table;
+    width:100%;
+}
+
+.v-align span{
+	padding: 10px 0;
+	vertical-align: middle;
+	display:table-cell;
+}
+
+.button{
+	padding: 5px 15px;
+	color:black;
+	background-color: white;
+	border-width: 4px;
+	border-style: outset;
+	border-color: white;
+	border-radius: 25px;
+	transition:  0.5s;
+
+}
+
+.button:hover{
+	color:white;
+	background-color: black;
+	border-color: white;
+}
+
+.button:focus{
+	outline:none;
+}
+
+
+#rs h2{
+	font-size: 2rem;
+}
+
+#rs a{
+	text-decoration: none;
+	color:white;
+}
+
+#rs a:hover{
+	color:black;
+}
+
+.box_rs{
+	background-color: black;
+	border:10px solid black;
+	margin:0px 10px;
+    text-decoration: none;
+	color:white;
+	text-align: center;
+	transition:  0.5s;
+}
+
+.box_rs:hover{
+	background-color: white;
+	border:10px solid black;
+	color:black;
+}
+
+svg{
+	fill:white;
+	width:50%;
+	padding:40px 30px;
+
+}
+
+.box_rs:hover svg{
+	fill:black;
+}
+
+#contactmail{
+	color:black;
+	text-decoration: none;
+	border-bottom: 1px solid;
+	transition: ease-in 0.4s;
+}
+
+#contactmail:hover{
+	border-bottom: 1px solid transparent;
+}
+
+#bbe2{
+	color:black;
+	text-decoration: none;
+	border-bottom: 1px solid;
+  	transition: ease-in 0.4s;
+}
+
+#bbe2:hover{
+	border-bottom: 1px solid transparent;
+}
+
+footer {
+	background-color: white;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  #teaser{
+	 right:0;
+	}
+
+	#logo_top{
+		width:12%;
+		top:50vh;
+	}
+
+	#phrases {
+	    top:56vh;
+	    font-size: 40px;
+	}
+
+	#img_team{
+		height: 50vh;
+	}
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+   #teaser{
+	 right:0;
+	}
+
+	#logo_top{
+		width:12%;
+		top:50vh;
+	}
+
+	#phrases {
+	    top:58vh;
+	    font-size: 40px;
+	}
+
+	#img_team{
+		height: 50vh;
+	}
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	  #teaser{
+		 right:0;
+		}
+
+		#logo_top{
+			width:12%;
+			top:50vh;
+		}
+
+		#phrases {
+		    top:58vh;
+		    font-size: 40px;
+		}
+
+		#img_team{
+			height: 50vh;
+		}
+		
+		.chaine{
+			font-size: 1.5rem;
+		}
+
+		#rs h2{
+			font-size: 1.5rem;
+		}
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	  #teaser{
+		 right:0;
+		}
+
+		#logo_top{
+			width:12%;
+			top:50vh;
+		}
+
+		#phrases {
+		    top:58vh;
+		    font-size: 40px;
+		}
+
+		#img_team{
+			height: 50vh;
+		}
+
+}
+
+
+@media (min-width: 0px) and (max-width: 767px) and (orientation: landscape) {
+	#logo_top{
+		width:15%;
+		top:15vh;
+	}
+
+	#phrases {
+	    top:30vh;
+	    font-size: 30px;
+	}
+
+	#chaines h1{
+		font-size: 30px;
+	}
+
+	#nav{
+		padding: 0 10px;
+	}
+
+	svg{
+	width:25%;
+	padding:30px 20px;
+	}
+
+}
+
+@media (width: 320px) {
+	#logo_top{
+		width:25%;
+		top:30vh;
+	}
+
+	#phrases {
+	    top:45vh;
+	    font-size: 25px;
+	}
+
+	#chaines h1{
+		font-size: 30px;
+	}
+
+	#nav{
+		padding: 0 10px;
+	}
+
+	svg{
+	width:25%;
+	padding:30px 20px;
+	}
+
+}
+
+@media (width: 240px) {
+	#logo_top{
+		width:15%;
+		top:10vh;
+	}
+
+	#phrases {
+	    top:15vh;
+	    font-size: 15px;
+	}
+
+	#chaines h1{
+		font-size: 30px;
+	}
+
+	#nav{
+		padding: 0 10px;
+	}
+
+	svg{
+		width:25%;
+		padding:30px 20px;
+	}
+
+}
