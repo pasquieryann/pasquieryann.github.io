@@ -1,6 +1,6 @@
 $(document).ready(function(){
   // Add smooth scrolling to all links
-  $("nav ul li a, #menu_logo").on('click', function(event) {
+  $("nav ul li a, #menu_logo, #listejeu").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
