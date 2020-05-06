@@ -216,20 +216,6 @@ section {
 	border: 1px solid;
 }
 
-#text-1{
-	margin-left:40px;
-}
-
-#text-2{
-	margin-right:40px;
-}
-
-#text-3{
-	margin-left:40px;
-}
-
-
-
 
 #jeux_debutants img{
 	max-width:100%;
@@ -374,6 +360,20 @@ footer {
 	#img_team{
 		height: 50vh;
 	}
+
+
+	#text-1{
+		margin-left:40px;
+	}
+
+	#text-2{
+		margin-right:40px;
+	}
+
+	#text-3{
+		margin-left:40px;
+	}
+
 }
 
 /* 
@@ -400,6 +400,19 @@ footer {
 	#img_team{
 		height: 50vh;
 	}
+
+	#text-1{
+		margin-left:40px;
+	}
+
+	#text-2{
+		margin-right:40px;
+	}
+
+	#text-3{
+		margin-left:40px;
+	}
+
 
 }
 
@@ -434,6 +447,19 @@ footer {
 		#rs h2{
 			font-size: 1.5rem;
 		}
+		
+		#text-1{
+			margin-left:40px;
+		}
+
+		#text-2{
+			margin-right:40px;
+		}
+
+		#text-3{
+			margin-left:40px;
+		}
+
 
 }
 
