@@ -27,6 +27,14 @@ body {
  src: url("../font/Roboto/Roboto-Bold.ttf") format('truetype');
 }
 
+h1,h2,h3,h4,h5{
+	text-transform: uppercase;
+}
+
+.text-center{
+	text-align: center;
+}
+
 header{
 
 	background-color: #4D4D4D;
@@ -54,7 +62,7 @@ header{
 	min-height: 80vh;
 	background-image: url("../ressources/bannière header mobile.png"); 
  	background-repeat: no-repeat;
-  	background-size: contain;
+  	background-size: 100%;
 }
 
 #bard{
@@ -66,8 +74,9 @@ header{
 button{
 	text-transform: uppercase;
 	font-family:Roboto-Bold;
+	letter-spacing: 2px;
 	border-style: solid;
-	font-size: 13px;
+	font-size: 16px;
 	width:50%;
 	filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.5))
 }
@@ -83,7 +92,7 @@ button{
 	  border-color: #D4026D;
 	  border-radius:25px;
 	  color: white;
-	  padding: 15px 32px;
+	  padding: 15px 5px;
 	  text-align: center;
 	  text-decoration: none;
 	  cursor: pointer;
@@ -102,7 +111,7 @@ button{
 	  border-color: #D4026D;
 	  border-radius:25px;
 	  color: #D4026D;
-	  padding: 15px 32px;
+	  padding: 15px 5px;
 	  text-align: center;
 	  text-decoration: none;
 	  cursor: pointer;
@@ -113,10 +122,76 @@ button{
 	  color: white;
 }
 
+
+#section2{
+	min-height: 80vh;
+	background-image: url("../ressources/vague blanche transition mobile.png"); 
+ 	background-repeat: no-repeat;
+  	background-size: 100vw;
+}
+
+#section2 h1{
+		color:#D4026D;
+}
+
+#section2 img{
+	filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.5));
+}
+
+
 footer{
 	background-color: #4D4D4D;
 }
 
+
+footer h3,h5{
+	color: #E79AB3;
+}
+
+form input[placeholder]{
+	margin-left:5%;
+	margin-bottom: 20px;
+	padding:10px 15px;
+	font-family:Roboto-Bold;
+
+	font-size: 15px;
+	border-radius:25px;
+	border-style: solid !important;
+	border-color: white;
+}
+
+
+.redbuttonform{
+	  background-color: #D4026D;
+	  border-style: solid 1px;
+	  border-color: #D4026D;
+	  border-radius:25px;
+	  color: white;
+	  padding: 15px 5px;
+	  text-align: center;
+	  text-decoration: none;
+	  cursor: pointer;
+	  transition: 0.5s;
+}
+
+
+.redbuttonform:hover{
+	  background-color: #ffffffd8;
+	  color: #D4026D;
+}
+
+
+::placeholder{
+	color:lightgrey;
+}
+
+footer label{
+	margin-left:5%;
+	margin-right:5%;
+	font-family: Roboto-Medium;
+	font-size: 17px;
+	color:white;
+}
 
 
 

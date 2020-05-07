@@ -24,22 +24,73 @@
 		<br>
 			<img id="bard" class="center" width="50%" src="./ressources/Enchanted Bard.png">
 		<br>
-			<button class="redbutton center">our website</button>
+			<button onclick="window.location.href = 'https://www.gameontabletop.com/';" class="redbutton center">our website</button>
 		<br>
-			<button class="redbutton center">our blog</button>
+			<button onclick="window.location.href = 'https://tabletopcrowdfunding.wordpress.com/';" class="redbutton center">our blog</button>
 		<br>
-			<button class="whitebutton center">our newsletter</button>
+			<button id="newletter" onclick="window.location.href = '#footer';" class="whitebutton center">our newsletter</button>
+
+	</section>
+
+
+	<section id="section2">
+		<h1 class="text-center">live projects</h1>
+		<br>
+		<a href="https://www.gameontabletop.com/crowdfunding.php">
+		<img class="center" width="50%" src="./ressources/projects.png">
+		</a>
+		<br><br>
+
+		<h1 class="text-center">marketplace</h1>
+		<br>
+		<img class="center" width="50%" src="./ressources/marketplace.png">
+		<br><br>
+
+		<h1 class="text-center">latest blog</h1>
+		<h1 class="text-center">posts</h1>
+		<br>
+		<a href="https://tabletopcrowdfunding.wordpress.com/home/blog-2/"><img class="center" width="50%" src="./ressources/blog.png"></a>
+		<br>
+		<br>
 
 	</section>
 
 
 
-	<footer>
+	<footer id="footer">
+		<br>
+		 <h5 class="text-center">Subscribe to</h2>
+		 <h3 class="text-center">Our monthly</h1>
+		 <h3 class="text-center">newsletter</h1>
+		 <br>
+		 <br>
+		 <form action="action_page.php">
+		 	<div class="container">
+
+
+		    <input type="text" placeholder="YOUR NAME" name="name" required>
+		    <input type="text" placeholder="YOUR EMAIL ADDRESS" name="mail" required>
+		    <br>
+		    <br>
+		    <label>
+		      <input type="checkbox" name="subscribe"> By checking this box, I agree to receive news from Game On Tabletop. I understand that I can withdraw my consent at any time. For further information, please consult our Privacy Policy page.
+		    </label>
+			<br><br>
+
+
+		    <button type="submit" class="center redbuttonform">subscribe</button>
+		  </div>
+		</form>
+		<br><br>
+		<img class="center" width="20%" src="./ressources/g blanc.png">
+		<br><br>
 	
 	</footer>
-	
+
 	<script src="./lib/jquery/jquery-3.4.1.js"></script>
-	<script src="./lib/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
-	<script src="./lib/jquery.waypoints/jquery.waypoints.js"></script>  	
+	<script src="./lib/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>	
+	<script src="./lib/jquery.waypoints/jquery.waypoints.js"></script>  
+	<script src="./js/scrolltoanimation.js"></script>
+
 </body>
 </html>
