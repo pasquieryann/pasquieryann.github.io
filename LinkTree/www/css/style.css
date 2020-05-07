@@ -360,7 +360,114 @@ footer label{
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+	#header-rs{
+	padding-bottom: 0;
+	align-items: center;
+	}
 
+	#header-rs img{
+	width:50%;
+	}
+
+	#logo-header{
+	width:70%;
+	}
+
+	#bard {
+		margin-top:5vh;
+		width:80%;
+	}
+
+	#section1{
+	min-height: 80vh;
+	background-image: url("../ressources/bannière header web.png"); 
+ 	background-repeat: no-repeat;
+  	background-size: 100%;
+	}
+
+	#section1-buttons{
+		margin-top:15vh;
+	}
+
+	#section1-buttons button{
+		margin-bottom: 3vh;
+		padding: 30px 5px;
+		width:65%;
+		border-radius: 60px;
+	}
+
+	#section2{
+		padding-top:10vh;
+	}
+
+	#section2 img{
+		width:20vw;
+	}
+
+	#section2 #img1{
+		padding-left: 10vw;
+	}
+
+	#section2 #img3{
+		padding-right:10vw;
+	}
+
+	footer{
+		padding-top:5vh;
+	}
+
+	footer #div-container{
+		max-height:55vh;
+	}
+	footer h1{
+		display:inline;
+		padding-left: 12vw;
+		color: #E79AB3;
+		font-size: 40px;
+		letter-spacing: 2px;
+
+	}
+
+	footer #h1p1{
+		display:inline;
+		margin:0;
+		font-size: 40px;
+
+	}
+
+	footer form{
+		padding-left:12vw;
+	}
+
+	form input[placeholder]{
+	display: block;
+	padding:15px 15px;	
+	}
+
+	form #input1{
+		width:20%;
+	}
+
+	form #input2{
+		width:30%;
+	}
+
+	#redbuttonform{
+		margin-left: 4vw;
+		width:20%;
+	}
+
+	form label{
+		padding-right:20vw;
+	}
+
+	#logo-fin{
+		position: relative;
+		left:30%;
+		bottom:18vh;
+		width: 6vw;
+
+	}
 
 }
 
@@ -370,7 +477,114 @@ footer label{
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-	  
+	  #header-rs{
+	padding-bottom: 0;
+	align-items: center;
+	}
+
+	#header-rs img{
+	width:50%;
+	}
+
+	#logo-header{
+	width:70%;
+	}
+
+	#bard {
+		margin-top:5vh;
+		width:80%;
+	}
+
+	#section1{
+	min-height: 80vh;
+	background-image: url("../ressources/bannière header web.png"); 
+ 	background-repeat: no-repeat;
+  	background-size: 100%;
+	}
+
+	#section1-buttons{
+		margin-top:15vh;
+	}
+
+	#section1-buttons button{
+		margin-bottom: 3vh;
+		padding: 30px 5px;
+		width:65%;
+		border-radius: 60px;
+	}
+
+	#section2{
+		padding-top:10vh;
+	}
+
+	#section2 img{
+		width:20vw;
+	}
+
+	#section2 #img1{
+		padding-left: 10vw;
+	}
+
+	#section2 #img3{
+		padding-right:10vw;
+	}
+
+	footer{
+		padding-top:5vh;
+	}
+
+	footer #div-container{
+		max-height:55vh;
+	}
+	footer h1{
+		display:inline;
+		padding-left: 12vw;
+		color: #E79AB3;
+		font-size: 40px;
+		letter-spacing: 2px;
+
+	}
+
+	footer #h1p1{
+		display:inline;
+		margin:0;
+		font-size: 40px;
+
+	}
+
+	footer form{
+		padding-left:12vw;
+	}
+
+	form input[placeholder]{
+	display: block;
+	padding:15px 15px;	
+	}
+
+	form #input1{
+		width:20%;
+	}
+
+	form #input2{
+		width:30%;
+	}
+
+	#redbuttonform{
+		margin-left: 4vw;
+		width:20%;
+	}
+
+	form label{
+		padding-right:20vw;
+	}
+
+	#logo-fin{
+		position: relative;
+		left:30%;
+		bottom:18vh;
+		width: 6vw;
+
+	}
 }
 /* 
   ##Device = Tablets, Ipads (landscape)
