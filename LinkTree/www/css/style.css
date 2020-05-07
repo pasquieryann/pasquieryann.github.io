@@ -36,13 +36,14 @@ h1,h2,h3,h4,h5{
 }
 
 header{
-
+	width:100%;
 	background-color: #4D4D4D;
 }
 
 #logo-header{
 	padding-top:40px;
 	padding-bottom:30px;
+
 }
 
 .container-flex{
@@ -53,9 +54,8 @@ header{
 
 #header-rs{
 	padding-bottom: 40px;
-	margin-right: 30px;
-	margin-left: 30px;
 }
+
 
 
 #section1{
@@ -67,6 +67,7 @@ header{
 
 #bard{
 	filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.5));
+	margin-bottom:5vh;
 	
 }
 
@@ -76,8 +77,10 @@ button{
 	font-family:Roboto-Bold;
 	letter-spacing: 2px;
 	border-style: solid;
+	border-width:3px;
 	font-size: 16px;
-	width:50%;
+	padding: 15px 5px;
+	width:60%;
 	filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.5))
 }
 
@@ -88,11 +91,9 @@ button{
 
 .redbutton{
 	  background-color: #D4026D;
-	  border-style: solid 1px;
 	  border-color: #D4026D;
 	  border-radius:25px;
 	  color: white;
-	  padding: 15px 5px;
 	  text-align: center;
 	  text-decoration: none;
 	  cursor: pointer;
@@ -107,14 +108,13 @@ button{
 
 .whitebutton{
 	  background-color: #ffffffb2;
-	  border-style: 1px solid;
 	  border-color: #D4026D;
 	  border-radius:25px;
 	  color: #D4026D;
-	  padding: 15px 5px;
 	  text-align: center;
 	  text-decoration: none;
 	  cursor: pointer;
+	  transition: 0.5s;
 }
 
 .whitebutton:hover{
@@ -122,31 +122,50 @@ button{
 	  color: white;
 }
 
+#button-newsletter{
+	text-decoration: none;
+}
 
 #section2{
 	min-height: 80vh;
 	background-image: url("../ressources/vague blanche transition mobile.png"); 
  	background-repeat: no-repeat;
   	background-size: 100vw;
+  	margin-bottom: 5vh;
 }
 
 #section2 h1{
 		color:#D4026D;
+		font-size:30px;
 }
 
 #section2 img{
+	margin-bottom: 5vh;
 	filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.5));
 }
 
 
 footer{
+	padding-top: 5vh;
 	background-color: #4D4D4D;
 }
 
 
-footer h3,h5{
+footer h1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 	color: #E79AB3;
+	font-size: 30px;
+	max-width:60%;
 }
+
+footer #h1p1{
+	font-size: 20px;
+	margin:1vw;
+}
+
 
 form input[placeholder]{
 	margin-left:5%;
@@ -155,13 +174,22 @@ form input[placeholder]{
 	font-family:Roboto-Bold;
 
 	font-size: 15px;
-	border-radius:25px;
+	border-radius:35px;
 	border-style: solid !important;
 	border-color: white;
 }
 
 
-.redbuttonform{
+
+form #input2{
+	padding-right:8vw;
+}
+
+#redbuttonform{
+	 display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-top: 2vh;
 	  background-color: #D4026D;
 	  border-style: solid 1px;
 	  border-color: #D4026D;
@@ -172,10 +200,11 @@ form input[placeholder]{
 	  text-decoration: none;
 	  cursor: pointer;
 	  transition: 0.5s;
+
 }
 
 
-.redbuttonform:hover{
+#redbuttonform:hover{
 	  background-color: #ffffffd8;
 	  color: #D4026D;
 }
@@ -185,12 +214,23 @@ form input[placeholder]{
 	color:lightgrey;
 }
 
+
 footer label{
+	margin-top:2vh;
+	margin-bottom: 2vh;
 	margin-left:5%;
 	margin-right:5%;
 	font-family: Roboto-Medium;
 	font-size: 17px;
 	color:white;
+}
+
+#logo-fin{
+  display: block;
+  padding-top: 5vh;
+  padding-bottom: 4vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -203,24 +243,115 @@ footer label{
 */
 
 @media (min-width: 1281px) {
-  
-  #teaser{
-	 right:0;
+  	#header-rs{
+	padding-bottom: 0;
+	align-items: center;
 	}
 
-	#logo_top{
-		width:12%;
-		top:50vh;
+	#header-rs img{
+	width:50%;
 	}
 
-	#phrases {
-	    top:56vh;
-	    font-size: 40px;
+	#logo-header{
+	width:70%;
 	}
 
-	#img_team{
-		height: 50vh;
+	#bard {
+		margin-top:5vh;
+		width:80%;
 	}
+
+	#section1{
+	min-height: 80vh;
+	background-image: url("../ressources/bannière header web.png"); 
+ 	background-repeat: no-repeat;
+  	background-size: 100%;
+	}
+
+	#section1-buttons{
+		margin-top:15vh;
+	}
+
+	#section1-buttons button{
+		margin-bottom: 3vh;
+		padding: 30px 5px;
+		width:65%;
+		border-radius: 60px;
+	}
+
+	#section2{
+		padding-top:10vh;
+	}
+
+	#section2 img{
+		width:20vw;
+	}
+
+	#section2 #img1{
+		padding-left: 10vw;
+	}
+
+	#section2 #img3{
+		padding-right:10vw;
+	}
+
+	footer{
+		padding-top:5vh;
+	}
+
+	footer #div-container{
+		max-height:55vh;
+	}
+	footer h1{
+		display:inline;
+		padding-left: 12vw;
+		color: #E79AB3;
+		font-size: 40px;
+		letter-spacing: 2px;
+
+	}
+
+	footer #h1p1{
+		display:inline;
+		margin:0;
+		font-size: 40px;
+
+	}
+
+	footer form{
+		padding-left:12vw;
+	}
+
+	form input[placeholder]{
+	display: block;
+	padding:15px 15px;	
+	}
+
+	form #input1{
+		width:20%;
+	}
+
+	form #input2{
+		width:30%;
+	}
+
+	#redbuttonform{
+		margin-left: 4vw;
+		width:20%;
+	}
+
+	form label{
+		padding-right:20vw;
+	}
+
+	#logo-fin{
+		position: relative;
+		left:30%;
+		bottom:18vh;
+		width: 6vw;
+
+	}
+	
 }
 
 /* 
@@ -230,23 +361,7 @@ footer label{
 
 @media (min-width: 1025px) and (max-width: 1280px) {
 
-   #teaser{
-	 right:0;
-	}
 
-	#logo_top{
-		width:12%;
-		top:50vh;
-	}
-
-	#phrases {
-	    top:58vh;
-	    font-size: 40px;
-	}
-
-	#img_team{
-		height: 50vh;
-	}
 }
 
 /* 
@@ -255,108 +370,14 @@ footer label{
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-	  #teaser{
-		 right:0;
-		}
-
-		#logo_top{
-			width:12%;
-			top:50vh;
-		}
-
-		#phrases {
-		    top:58vh;
-		    font-size: 40px;
-		}
-
-		#img_team{
-			height: 50vh;
-		}
-		
-		.chaine{
-			font-size: 1.5rem;
-		}
-
-		#rs h2{
-			font-size: 1.5rem;
-		}
+	  
 }
-
 /* 
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-	  #teaser{
-		 right:0;
-		}
-
-		#logo_top{
-			width:12%;
-			top:50vh;
-		}
-
-		#phrases {
-		    top:58vh;
-		    font-size: 40px;
-		}
-
-		#img_team{
-			height: 50vh;
-		}
-}
-
-
-@media (min-width: 0px) and (max-width: 767px) and (orientation: landscape) {
-	#logo_top{
-		width:15%;
-		top:15vh;
-	}
-
-	#phrases {
-	    top:30vh;
-	    font-size: 30px;
-	}
-
-	#chaines h1{
-		font-size: 30px;
-	}
-
-	#nav{
-		padding: 0 10px;
-	}
-
-	svg{
-	width:25%;
-	padding:30px 20px;
-	}
-
-}
-
-@media (width: 320px) {
-	#logo_top{
-		width:25%;
-		top:30vh;
-	}
-
-	#phrases {
-	    top:45vh;
-	    font-size: 25px;
-	}
-
-	#chaines h1{
-		font-size: 30px;
-	}
-
-	#nav{
-		padding: 0 10px;
-	}
-
-	svg{
-	width:25%;
-	padding:30px 20px;
-	}
-
+	  
 }
 

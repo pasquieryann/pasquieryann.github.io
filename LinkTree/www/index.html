@@ -10,81 +10,102 @@
 <body>
 
 	<header>
-			<img id="logo-header" class="center" width="60%" src="./ressources/logo long blanc.png">
-			<div id="header-rs" class="container-flex">
+		<div class="container-fluid">
+			<div class="row">
+			<div class="col-md-1"></div>
+
+			<div class="col-12 col-md-3"><img id="logo-header" class="center" width="80%" src="./ressources/logo long blanc.png"></div>	
+			
+
+			<div id="header-rs" class="container-flex col-12 col-md-4 offset-md-3">
 				<a href="https://www.facebook.com/GameOnTT/"><img class="center" width="70%" src="./ressources/facebook rose.png"></a>
 				<a href="https://twitter.com/gameontabletop"><img class="center" width="70%" src="./ressources/twitter rose.png"></a>
 				<a href="https://www.instagram.com/gameontabletop/"><img  class="center" width="70%" src="./ressources/insta rose.png"></a>
 				<a href="https://discord.gg/YH9HrQp"><img class="center" width="70%" src="./ressources/discord rose.png"></a>
+			</div>
+			<div class="col-md-1"></div>
 			</div>
 	</header>
 
 
 	<section id="section1">
 		<br>
-			<img id="bard" class="center" width="50%" src="./ressources/Enchanted Bard.png">
-		<br>
-			<button onclick="window.location.href = 'https://www.gameontabletop.com/';" class="redbutton center">our website</button>
-		<br>
-			<button onclick="window.location.href = 'https://tabletopcrowdfunding.wordpress.com/';" class="redbutton center">our blog</button>
-		<br>
-			<button id="newletter" onclick="window.location.href = '#footer';" class="whitebutton center">our newsletter</button>
-
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-12 col-md-4">
+					<img id="bard" class="center" width="50%" src="./ressources/Enchanted Bard.png">
+				</div>
+			<br>
+			<div id="section1-buttons" class="col-12 col-md-4">
+				<button onclick="window.location.href = 'https://www.gameontabletop.com/';" class="redbutton center">Discover Game On</button>
+			<br>
+				<button onclick="window.location.href = 'https://tabletopcrowdfunding.wordpress.com/';" class="redbutton center">Read our blog</button>
+			<br>
+				<a id="button-newsletter" href="#footer"><button id="newsletter" class="whitebutton center">Subscribe to our Newsletter</button></a>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
 	</section>
 
 
 	<section id="section2">
-		<h1 class="text-center">live projects</h1>
-		<br>
-		<a href="https://www.gameontabletop.com/crowdfunding.php">
-		<img class="center" width="50%" src="./ressources/projects.png">
-		</a>
-		<br><br>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<div id="img1">
+					<h1 class="text-center">live projects</h1>
+					<br>
+					<a href="https://www.gameontabletop.com/crowdfunding.php">
+					<img class="center" width="50%" src="./ressources/projects.png">
+					</a>
+				</div>
+				</div>
 
-		<h1 class="text-center">marketplace</h1>
-		<br>
-		<img class="center" width="50%" src="./ressources/marketplace.png">
-		<br><br>
+				<div class="col-12 col-md-4">
+					<h1 class="text-center">marketplace</h1>
+					<br>
+					<img class="center" width="50%" src="./ressources/marketplace.png">
+				</div>
 
-		<h1 class="text-center">latest blog</h1>
-		<h1 class="text-center">posts</h1>
-		<br>
-		<a href="https://tabletopcrowdfunding.wordpress.com/home/blog-2/"><img class="center" width="50%" src="./ressources/blog.png"></a>
-		<br>
-		<br>
+				<div class="col-12 col-md-4">
+					<div id="img3">
+					<h1 class="text-center">latest blog posts</h1>
+					<br>
+					<a href="https://tabletopcrowdfunding.wordpress.com/home/blog-2/"><img class="center" width="50%" src="./ressources/blog.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
 
 	</section>
 
 
 
 	<footer id="footer">
-		<br>
-		 <h5 class="text-center">Subscribe to</h2>
-		 <h3 class="text-center">Our monthly</h1>
-		 <h3 class="text-center">newsletter</h1>
+		<div id="div-container" class="container-fluid">
+		 <h1><p id="h1p1" >Subscribe to</p> our monthly newsletter</h1>
 		 <br>
 		 <br>
-		 <form action="action_page.php">
-		 	<div class="container">
+		 <form action="action.php" method="post">
+		 	
 
-
-		    <input type="text" placeholder="YOUR NAME" name="name" required>
-		    <input type="text" placeholder="YOUR EMAIL ADDRESS" name="mail" required>
-		    <br>
-		    <br>
+		    <input id="input1" type="text" placeholder="YOUR NAME" name="name" required>
+		    <input id="input2" type="text" placeholder="YOUR EMAIL ADDRESS" name="mail" required>
+		    
 		    <label>
-		      <input type="checkbox" name="subscribe"> By checking this box, I agree to receive news from Game On Tabletop. I understand that I can withdraw my consent at any time. For further information, please consult our Privacy Policy page.
+		      <input type="checkbox" name="subscribe"> By checking this box, I agree to receive news from Game On Tabletop. I understand that I can withdraw my consent at any time.<br> For further information, please consult our Privacy Policy page.
 		    </label>
-			<br><br>
 
 
-		    <button type="submit" class="center redbuttonform">subscribe</button>
-		  </div>
+
+		    <button id="redbuttonform" type="submit" name="subscirbe" >subscribe</button>
+		  
 		</form>
-		<br><br>
-		<img class="center" width="20%" src="./ressources/g blanc.png">
-		<br><br>
-	
+
+		<img id="logo-fin" width="20%" src="./ressources/g blanc.png">
+
+		</div>
 	</footer>
 
 	<script src="./lib/jquery/jquery-3.4.1.js"></script>
