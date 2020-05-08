@@ -41,9 +41,17 @@ header{
 	background-color: #4D4D4D;
 }
 
-#logo-header{
-	padding-top:5vh;
 
+#logo-header{
+	margin-right: auto;
+	margin-left: auto;
+	height:15vh;
+	width:70%;
+	background-image: url('../ressources/logo long blanc.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: 0.5s;
 }
 
 .container-flex{
@@ -54,16 +62,17 @@ header{
 #header-rs a div{
 	height:15vh;
 	width:15vw;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: 0.5s;
 }
 
 
 
 #facebook{
 	background-image: url('../ressources/facebook rose.png');
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	transition: 0.5s;
+	
 	}
 
 #facebook:hover {
@@ -73,10 +82,7 @@ header{
 
 #twitter{
 	background-image: url('../ressources/twitter rose.png');
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	transition: 0.5s;
+
 	}
 
 #twitter:hover {
@@ -86,10 +92,7 @@ header{
 
 #instagram{
 	background-image: url('../ressources/insta rose.png');
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	transition: 0.5s;
+
 	}
 
 #instagram:hover {
@@ -99,10 +102,7 @@ header{
 
 #discord{
 	background-image: url('../ressources/discord rose.png');
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	transition: 0.5s;
+
 	}
 
 #discord:hover {
@@ -115,7 +115,7 @@ header{
 	min-height: 80vh;
 	background-image: url("../ressources/bannière header mobile.png"); 
  	background-repeat: no-repeat;
-  	background-size: 100%;
+  	background-size: cover;
   	margin-bottom: 3vh;
 }
 
@@ -185,11 +185,17 @@ button{
 }
 
 #section2{
+	margin-top:-20vh;
 	min-height: 75vh;
-	background-image: url("../ressources/vague blanche transition mobile.png"); 
+	background-image: url("../ressources/vague blanche transition mobile.png");
  	background-repeat: no-repeat;
-  	background-size: 100vw;
+  	background-size: 100%;
   	margin-bottom: 5vh;
+  	z-index: 1;
+}
+
+#section2 #first-txt{
+	margin-top: 23vh;
 }
 
 #section2 h1{
@@ -313,9 +319,11 @@ footer label{
 	}
 
 	#header-rs a div{
-	height:15vh;
+	height:12vh;
 	width:5vw;
+	background-size: 80%;
 	}
+
 
 	#logo-header{
 	width:70%;
@@ -327,7 +335,7 @@ footer label{
 	}
 
 	#section1{
-	min-height: 80vh;
+	min-height: 110vh;
 	background-image: url("../ressources/bannière header web.png"); 
  	background-repeat: no-repeat;
   	background-size: 100%;
@@ -340,12 +348,31 @@ footer label{
 	#section1-buttons button{
 		margin-bottom: 3vh;
 		padding: 30px 5px;
-		width:65%;
 		border-radius: 60px;
 	}
 
 	#section2{
 		padding-top:10vh;
+	}
+
+	
+
+	#section2{
+	margin-top:-80vh;
+	min-height: 75vh;
+	background-image: url("../ressources/vague blanche transition web.png");
+ 	background-repeat: no-repeat;
+  	background-size: 100%;
+  	margin-bottom: 5vh;
+  	z-index: 1;
+  	}
+
+	#section2 #s2-row{
+		margin-top: 45vh;
+	}
+
+	#section2 #first-txt{
+		margin-top: 0;
 	}
 
 	#section2 img{
@@ -425,15 +452,12 @@ footer label{
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-	#header-rs{
-	padding-bottom: 0;
-	align-items: center;
+	
+	#header-rs a div{
+	height:12vh;
+	width:5vw;
+	background-size: 80%;
 	}
-
-	#header-rs img{
-	width:50%;
-	}
-
 	#logo-header{
 	width:70%;
 	}
@@ -542,13 +566,11 @@ footer label{
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-	  #header-rs{
-	padding-bottom: 0;
-	align-items: center;
-	}
-
-	#header-rs img{
-	width:50%;
+	
+	#header-rs a div{
+	height:12vh;
+	width:5vw;
+	background-size: 80%;
 	}
 
 	#logo-header{
