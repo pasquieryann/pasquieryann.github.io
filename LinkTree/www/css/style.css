@@ -51,11 +51,79 @@ header{
 	justify-content: space-around;
 }
 
+#facebook{
+	background-image: url('../ressources/facebook rose.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 4vw;
+	height: 4vw;
+	transition: 0.5s;
+	}
+
+#facebook:hover {
+	background-image: url('../ressources/facebook blanc.png');
+	transform: translate(0, -8px);
+	}
+
+#twitter{
+	background-image: url('../ressources/twitter rose.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 4vw;
+	height: 4vw;
+	transition: 0.5s;
+	}
+
+#twitter:hover {
+	background-image: url('../ressources/twitter blanc.png');
+	transform: translate(0, -8px);
+	}
+
+#instagram{
+	background-image: url('../ressources/insta rose.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 4vw;
+	height: 4vw;
+	transition: 0.5s;
+	}
+
+#instagram:hover {
+	background-image: url('../ressources/insta blanc.png');
+	transform: translate(0, -8px);
+	}
+
+#discord{
+	background-image: url('../ressources/discord rose.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 4vw;
+	height: 4vw;
+	transition: 0.5s;
+	}
+
+#discord:hover {
+	background-image: url('../ressources/discord blanc.png');
+	transform: translate(0, -8px);
+	}
+
 
 #header-rs{
 	padding-bottom: 40px;
+
 }
 
+#header-rs img{
+	transition: 0.5s;
+}
+
+#header-rs img:hover{
+	transform: translate(0, -8px);
+}
 
 
 #section1{
@@ -104,7 +172,10 @@ button{
 .redbutton:hover{
 	  background-color: #ffffffb2;
 	  color: #D4026D;
+	  transform: translate(0, -8px);
+
 }
+
 
 .whitebutton{
 	  background-color: #ffffffb2;
@@ -120,6 +191,7 @@ button{
 .whitebutton:hover{
 	  background-color: #D4026D;
 	  color: white;
+	  transform: translate(0, -8px);
 }
 
 #button-newsletter{
@@ -127,7 +199,7 @@ button{
 }
 
 #section2{
-	min-height: 80vh;
+	min-height: 75vh;
 	background-image: url("../ressources/vague blanche transition mobile.png"); 
  	background-repeat: no-repeat;
   	background-size: 100vw;
@@ -137,13 +209,18 @@ button{
 #section2 h1{
 		color:#D4026D;
 		font-size:30px;
+		height:6vh;
 }
 
 #section2 img{
 	margin-bottom: 5vh;
 	filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.5));
+	transition: 0.5s;
 }
 
+#section2 img:hover{
+transform: translate(0, -10px);
+}
 
 footer{
 	padding-top: 5vh;
@@ -207,6 +284,7 @@ form #input2{
 #redbuttonform:hover{
 	  background-color: #ffffffd8;
 	  color: #D4026D;
+	  transform: translate(0, -8px);
 }
 
 
