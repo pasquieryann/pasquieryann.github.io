@@ -112,10 +112,10 @@ header{
 
 
 #section1{
-	min-height: 80vh;
+	min-height: 110vh;
 	background-image: url("../ressources/bannière header mobile.png"); 
  	background-repeat: no-repeat;
-  	background-size: cover;
+  	background-size: 100% 100%;
   	margin-bottom: 3vh;
 }
 
@@ -132,7 +132,7 @@ button{
 	letter-spacing: 2px;
 	border-style: solid;
 	border-width:3px;
-	font-size: 16px;
+	font-size: 12px;
 	padding: 15px 5px;
 	width:60%;
 	filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.5))
@@ -185,7 +185,7 @@ button{
 }
 
 #section2{
-	margin-top:-20vh;
+	margin-top:-30vh;
 	min-height: 75vh;
 	background-image: url("../ressources/vague blanche transition mobile.png");
  	background-repeat: no-repeat;
@@ -195,12 +195,12 @@ button{
 }
 
 #section2 #first-txt{
-	margin-top: 23vh;
+	margin-top: 30vh;
 }
 
 #section2 h1{
 		color:#D4026D;
-		font-size:30px;
+		font-size:25px;
 		height:6vh;
 }
 
@@ -226,8 +226,9 @@ footer h1{
 	margin-right: auto;
 	text-align: center;
 	color: #E79AB3;
-	font-size: 30px;
+	font-size: 25px;
 	max-width:60%;
+	margin-bottom:6vh;
 }
 
 footer #h1p1{
@@ -313,6 +314,7 @@ footer label{
 */
 
 @media (min-width: 1281px) {
+
   	#header-rs{
 	padding-bottom: 0;
 	align-items: center;
@@ -343,6 +345,11 @@ footer label{
 
 	#section1-buttons{
 		margin-top:15vh;
+
+	}
+
+	button{
+		font-size: 16px;
 	}
 
 	#section1-buttons button{
@@ -355,7 +362,10 @@ footer label{
 		padding-top:10vh;
 	}
 
-	
+	#section2 h1{
+		font-size:30px;
+
+	}
 
 	#section2{
 	margin-top:-80vh;
@@ -394,6 +404,7 @@ footer label{
 	footer #div-container{
 		max-height:55vh;
 	}
+
 	footer h1{
 		display:inline;
 		padding-left: 12vw;
@@ -411,6 +422,7 @@ footer label{
 	}
 
 	footer form{
+		margin-top: 4vh;
 		padding-left:12vw;
 	}
 
