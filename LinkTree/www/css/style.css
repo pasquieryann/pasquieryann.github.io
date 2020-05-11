@@ -816,18 +816,19 @@ footer #cgu a:hover{
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 	#header-rs{
-	padding-bottom: 0;
-	align-items: center;
+		padding-bottom: 0;
+		align-items: center;
 	}
 
 	#header-rs a div{
-	width:5vw;
-	background-size: 80%;
+		margin-right: 2vw;
+		width:5vw;
+		background-size: 100%;
 	}
 
 
 	#logo-header{
-	width:70%;
+		width:100%;
 	}
 
 	#bard {
@@ -836,14 +837,14 @@ footer #cgu a:hover{
 	}
 
 	#section1{
-	min-height: 110vh;
-	background-image: url("../ressources/bannière header web.png"); 
- 	background-repeat: no-repeat;
-  	background-size: 100%;
+		min-height: 110vh;
+		background-image: url("../ressources/bannière header web.png"); 
+	 	background-repeat: no-repeat;
+	  	background-size: 100%;
 	}
 
 	#section1-buttons{
-		margin-top:15vh;
+		margin-top:0vh;
 
 	}
 
@@ -852,9 +853,9 @@ footer #cgu a:hover{
 	}
 
 	#section1-buttons button{
-		margin-bottom: 3vh;
-		padding: 30px 5px;
-		border-radius: 60px;
+		margin-bottom: 1vh;
+		padding: 15px 5px;
+		border-radius: 50px;
 	}
 
 	#section2{
@@ -867,13 +868,13 @@ footer #cgu a:hover{
 	}
 
 	#section2{
-	margin-top:-80vh;
-	min-height: 75vh;
-	background-image: url("../ressources/vague blanche transition web.png");
- 	background-repeat: no-repeat;
-  	background-size: 100%;
-  	margin-bottom: 5vh;
-  	z-index: 1;
+		margin-top:-80vh;
+		min-height: 75vh;
+		background-image: url("../ressources/vague blanche transition web.png");
+	 	background-repeat: no-repeat;
+	  	background-size: 100%;
+	  	margin-bottom: 5vh;
+	  	z-index: 1;
   	}
 
 	#section2 #s2-row{
@@ -898,7 +899,7 @@ footer #cgu a:hover{
 
 	footer{
 		padding-top:5vh;
-		padding-bottom: 12vh;
+		padding-bottom: 40vh;
 	}
 
 	footer #div-container{
@@ -906,8 +907,8 @@ footer #cgu a:hover{
 	}
 
 	footer h1{
-		display:inline;
-		padding-left: 12vw;
+		display:block;
+		padding-left: 3vw;
 		color: #E79AB3;
 		font-size: 40px;
 		letter-spacing: 2px;
