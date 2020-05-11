@@ -6,7 +6,7 @@ $BDD = array();
 $BDD['host'] = "localhost";
 $BDD['user'] = "root";
 $BDD['pass'] = "";
-$BDD['db'] = "nom_de_la_base_de_donnees";
+$BDD['db'] = "database";
 $mysqli = mysqli_connect($BDD['host'], $BDD['user'], $BDD['pass'], $BDD['db']);
 if(!$mysqli) {
     echo "Connexion non établie.";
@@ -48,26 +48,5 @@ if(isset($_POST['pseudo'],$_POST['mdp'])){//l'utilisateur à cliqué sur "S'insc
     }
 }
 if($AfficherFormulaire==1){
-    ?>
-    <!-- 
-    Les balises <form> servent à dire que c'est un formulaire
-    on lui demande de faire fonctionner la page inscription.php une fois le bouton "S'inscrire" cliqué
-    on lui dit également que c'est un formulaire de type "POST"
-     
-    Les balises <input> sont les champs de formulaire
-    type="text" sera du texte
-    type="password" sera des petits points noir (texte caché)
-    type="submit" sera un bouton pour valider le formulaire
-    name="nom de l'input" sert à le reconnaitre une fois le bouton submit cliqué, pour le code PHP
-     -->
-    <br />
-    <form method="post" action="inscription.php">
-        Pseudo (a-z0-9) : <input type="text" name="pseudo">
-        <br />
-        Mot de passe : <input type="password" name="mdp">
-        <br />
-        <input type="submit" value="S'inscrire">
-    </form>
-    <?php
-}
+    
 ?>
