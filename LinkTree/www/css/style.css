@@ -45,7 +45,7 @@ header{
 #logo-header{
 	margin-right: auto;
 	margin-left: auto;
-	height:15vh;
+	height:20vh;
 	width:70%;
 	background-image: url('../ressources/logo long blanc.png');
 	background-size: 100%;
@@ -62,7 +62,7 @@ header{
 #header-rs a div{
 	height:15vh;
 	width:15vw;
-	background-size: 100%;
+	background-size: 90%;
 	background-repeat: no-repeat;
 	background-position: center;
 	transition: 0.5s;
@@ -132,7 +132,7 @@ button{
 	letter-spacing: 2px;
 	border-style: solid;
 	border-width:3px;
-	font-size: 12px;
+	font-size: 15px;
 	padding: 15px 5px;
 	width:60%;
 	filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.5))
@@ -215,8 +215,9 @@ transform: translate(0, -10px);
 }
 
 footer{
-	padding-top: 5vh;
+	padding-top: 7vh;
 	background-color: #4D4D4D;
+	padding-bottom: 10vh;
 }
 
 
@@ -296,12 +297,33 @@ footer label{
 	color:white;
 }
 
+footer #copyright{
+	margin:8vh 3vh 1vh 3vh;
+	color:white;
+	text-align: center;
+	font-size: 17px;
+}
+
+footer #cgu {
+	text-align: center;
+}
+
+footer #cgu a{
+	color:white;
+	font-size: 17px;
+	text-decoration: underline;
+}
+
+footer #cgu a:hover{
+	text-decoration: none;
+}
+
 #logo-fin{
-  display: block;
-  padding-top: 5vh;
-  padding-bottom: 4vh;
-  margin-left: auto;
-  margin-right: auto;
+	  display: block;
+	  padding-top:4vh;
+
+	  margin-left: auto;
+	  margin-right: auto;
 }
 
 
@@ -321,7 +343,6 @@ footer label{
 	}
 
 	#header-rs a div{
-	height:12vh;
 	width:5vw;
 	background-size: 80%;
 	}
@@ -399,6 +420,7 @@ footer label{
 
 	footer{
 		padding-top:5vh;
+		padding-bottom: 12vh;
 	}
 
 	footer #div-container{
@@ -451,9 +473,23 @@ footer label{
 	#logo-fin{
 		position: relative;
 		left:30%;
-		bottom:18vh;
+		bottom:35vh;
 		width: 6vw;
 
+	}
+
+	footer #copyright{
+		margin: 6vh 30vw 2vh 30vw;
+		color:white;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	footer #cgu a{
+		margin: 0vh 30vw 2vh 30vw;
+		color:white;
+		text-align: center;
+		font-size: 20px;
 	}
 	
 }
@@ -465,11 +501,17 @@ footer label{
 
 @media (min-width: 1025px) and (max-width: 1280px) {
 	
+	#header-rs{
+	padding-bottom: 0;
+	align-items: center;
+	}
+
 	#header-rs a div{
-	height:12vh;
 	width:5vw;
 	background-size: 80%;
 	}
+
+
 	#logo-header{
 	width:70%;
 	}
@@ -480,7 +522,7 @@ footer label{
 	}
 
 	#section1{
-	min-height: 80vh;
+	min-height: 110vh;
 	background-image: url("../ressources/bannière header web.png"); 
  	background-repeat: no-repeat;
   	background-size: 100%;
@@ -488,17 +530,44 @@ footer label{
 
 	#section1-buttons{
 		margin-top:15vh;
+
+	}
+
+	button{
+		font-size: 16px;
 	}
 
 	#section1-buttons button{
 		margin-bottom: 3vh;
 		padding: 30px 5px;
-		width:65%;
 		border-radius: 60px;
 	}
 
 	#section2{
 		padding-top:10vh;
+	}
+
+	#section2 h1{
+		font-size:30px;
+
+	}
+
+	#section2{
+	margin-top:-80vh;
+	min-height: 75vh;
+	background-image: url("../ressources/vague blanche transition web.png");
+ 	background-repeat: no-repeat;
+  	background-size: 100%;
+  	margin-bottom: 5vh;
+  	z-index: 1;
+  	}
+
+	#section2 #s2-row{
+		margin-top: 45vh;
+	}
+
+	#section2 #first-txt{
+		margin-top: 0;
 	}
 
 	#section2 img{
@@ -515,11 +584,13 @@ footer label{
 
 	footer{
 		padding-top:5vh;
+		padding-bottom: 12vh;
 	}
 
 	footer #div-container{
 		max-height:55vh;
 	}
+
 	footer h1{
 		display:inline;
 		padding-left: 12vw;
@@ -537,6 +608,7 @@ footer label{
 	}
 
 	footer form{
+		margin-top: 4vh;
 		padding-left:12vw;
 	}
 
@@ -565,9 +637,23 @@ footer label{
 	#logo-fin{
 		position: relative;
 		left:30%;
-		bottom:18vh;
+		bottom:35vh;
 		width: 6vw;
 
+	}
+
+	footer #copyright{
+		margin: 6vh 30vw 2vh 30vw;
+		color:white;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	footer #cgu a{
+		margin: 0vh 30vw 2vh 30vw;
+		color:white;
+		text-align: center;
+		font-size: 20px;
 	}
 
 }
@@ -579,14 +665,20 @@ footer label{
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	
-	#header-rs a div{
-	height:12vh;
-	width:5vw;
-	background-size: 80%;
+	#header-rs{
+	padding-bottom: 0;
+	align-items: center;
 	}
 
+	#header-rs a div{
+	width:7vw;
+	background-size: 100%;
+	margin-right: 2vw;
+	}
+
+
 	#logo-header{
-	width:70%;
+		width:120%;
 	}
 
 	#bard {
@@ -595,25 +687,53 @@ footer label{
 	}
 
 	#section1{
-	min-height: 80vh;
+	min-height: 40vh;
 	background-image: url("../ressources/bannière header web.png"); 
  	background-repeat: no-repeat;
   	background-size: 100%;
 	}
 
 	#section1-buttons{
-		margin-top:15vh;
+		margin-top:1vh;
+
+	}
+
+	button{
+		font-size: 12px;
 	}
 
 	#section1-buttons button{
-		margin-bottom: 3vh;
-		padding: 30px 5px;
-		width:65%;
-		border-radius: 60px;
+		margin-bottom: 0vh;
+		padding: 20px 10px;
+		border-radius: 70px;
+		width:80%;
 	}
 
 	#section2{
-		padding-top:10vh;
+		padding-top:22vh;
+	}
+
+	#section2 h1{
+		font-size:25px;
+
+	}
+
+	#section2{
+	margin-top:-25vh;
+	min-height: 30vh;
+	background-image: url("../ressources/vague blanche transition web.png");
+ 	background-repeat: no-repeat;
+  	background-size: 100%;
+  	margin-bottom: 5vh;
+  	z-index: 1;
+  	}
+
+	#section2 #s2-row{
+		margin-top: 0vh;
+	}
+
+	#section2 #first-txt{
+		margin-top: 0;
 	}
 
 	#section2 img{
@@ -630,11 +750,161 @@ footer label{
 
 	footer{
 		padding-top:5vh;
+		padding-bottom:5vh;
 	}
 
 	footer #div-container{
 		max-height:55vh;
 	}
+
+	footer h1{
+		display:block;
+		margin-left:12vw;
+		color: #E79AB3;
+		font-size: 35px;
+		letter-spacing: 2px;
+		text-align: left;
+
+	}
+
+	footer #h1p1{
+		display:inline;
+		margin:0;
+		font-size: 35px;
+
+	}
+
+	footer form{
+		margin-top: 4vh;
+		padding-left:12vw;
+	}
+
+	form input[placeholder]{
+	display: block;
+	padding:15px 15px;	
+	}
+
+	form #input1{
+		width:30%;
+	}
+
+	form #input2{
+		width:50%;
+	}
+
+	#redbuttonform{
+		margin-left: 4vw;
+		width:30%;
+	}
+
+	form label{
+		padding-right:20vw;
+	}
+
+	#logo-fin{
+		position: relative;
+		left:30%;
+		bottom:15vh;
+		width: 10vw;
+
+	}
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	#header-rs{
+	padding-bottom: 0;
+	align-items: center;
+	}
+
+	#header-rs a div{
+	width:5vw;
+	background-size: 80%;
+	}
+
+
+	#logo-header{
+	width:70%;
+	}
+
+	#bard {
+		margin-top:5vh;
+		width:80%;
+	}
+
+	#section1{
+	min-height: 110vh;
+	background-image: url("../ressources/bannière header web.png"); 
+ 	background-repeat: no-repeat;
+  	background-size: 100%;
+	}
+
+	#section1-buttons{
+		margin-top:15vh;
+
+	}
+
+	button{
+		font-size: 16px;
+	}
+
+	#section1-buttons button{
+		margin-bottom: 3vh;
+		padding: 30px 5px;
+		border-radius: 60px;
+	}
+
+	#section2{
+		padding-top:10vh;
+	}
+
+	#section2 h1{
+		font-size:30px;
+
+	}
+
+	#section2{
+	margin-top:-80vh;
+	min-height: 75vh;
+	background-image: url("../ressources/vague blanche transition web.png");
+ 	background-repeat: no-repeat;
+  	background-size: 100%;
+  	margin-bottom: 5vh;
+  	z-index: 1;
+  	}
+
+	#section2 #s2-row{
+		margin-top: 45vh;
+	}
+
+	#section2 #first-txt{
+		margin-top: 0;
+	}
+
+	#section2 img{
+		width:20vw;
+	}
+
+	#section2 #img1{
+		padding-left: 10vw;
+	}
+
+	#section2 #img3{
+		padding-right:10vw;
+	}
+
+	footer{
+		padding-top:5vh;
+		padding-bottom: 12vh;
+	}
+
+	footer #div-container{
+		max-height:55vh;
+	}
+
 	footer h1{
 		display:inline;
 		padding-left: 12vw;
@@ -652,6 +922,7 @@ footer label{
 	}
 
 	footer form{
+		margin-top: 4vh;
 		padding-left:12vw;
 	}
 
@@ -680,17 +951,23 @@ footer label{
 	#logo-fin{
 		position: relative;
 		left:30%;
-		bottom:18vh;
+		bottom:35vh;
 		width: 6vw;
 
 	}
-}
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-	  
+	footer #copyright{
+		margin: 6vh 30vw 2vh 30vw;
+		color:white;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	footer #cgu a{
+		margin: 0vh 30vw 2vh 30vw;
+		color:white;
+		text-align: center;
+		font-size: 20px;
+	}
 }
 
