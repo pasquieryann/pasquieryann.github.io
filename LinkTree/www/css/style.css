@@ -333,12 +333,178 @@ footer #cgu a:hover{
 
 /* MEDIA QUERIES */
 
+
+
+@media (min-width : 1824px) {
+
+  	#header-rs{
+	padding-bottom: 0;
+	align-items: center;
+	}
+
+	#header-rs a div{
+	width:5vw;
+	background-size: 80%;
+	}
+
+
+	#logo-header{
+	width:80%;
+	height: 25vh;
+	}
+
+	#bard {
+		margin-top:5vh;
+		width:50%;
+	}
+
+	#section1{
+	min-height: 110vh;
+	background-image: url("../ressources/bannière header web.png"); 
+ 	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+	}
+
+	#section1-buttons{
+		margin-top:10vh;
+
+	}
+
+	button{
+		font-size: 22px;
+	}
+
+	#section1-buttons button{
+		margin-bottom: 6vh;
+		padding: 30px 5px;
+		border-radius: 60px;
+	}
+
+	#section2{
+		padding-top:30vh;
+	}
+
+	#section2 h1{
+		font-size:45px;
+		margin-bottom: 4vh;
+
+	}
+
+	#section2{
+	margin-top:-85vh;
+	min-height: 75vh;
+	background-image: url("../ressources/vague blanche transition web.png");
+ 	background-repeat: no-repeat;
+  	background-size: 100%;
+  	margin-bottom: 15vh;
+  	z-index: 1;
+  	}
+
+	#section2 #s2-row{
+		margin-top: 70vh;
+	}
+
+	#section2 #first-txt{
+		margin-top: 0;
+	}
+
+	#section2 img{
+		width:20vw;
+	}
+
+	#section2 #img1{
+		padding-left: 10vw;
+	}
+
+	#section2 #img3{
+		padding-right:10vw;
+	}
+
+	footer{
+		padding-top:6vh;
+		padding-bottom: 45vh;
+	}
+
+	footer #div-container{
+		max-height:55vh;
+	}
+
+	footer h1{
+		display:inline;
+		padding-left: 12vw;
+		color: #E79AB3;
+		font-size: 45px;
+		letter-spacing: 2px;
+
+	}
+
+	footer #h1p1{
+		display:inline;
+		margin:0;
+		font-size: 45px;
+
+	}
+
+	footer form{
+		margin-top: 4vh;
+		padding-left:12vw;
+	}
+
+	form input[placeholder]{
+	display: block;
+	padding:15px 15px;	
+	}
+
+	form #input1{
+		width:20%;
+	}
+
+	form #input2{
+		width:30%;
+	}
+
+	#redbuttonform{
+		margin-left: 4vw;
+		width:20%;
+	}
+
+	form label{
+		padding-right:20vw;
+		font-size: 25px;
+	}
+
+	#logo-fin{
+		position: relative;
+		left:30%;
+		bottom:45vh;
+		width: 6vw;
+
+	}
+
+	footer #copyright{
+		margin: 6vh 30vw 2vh 30vw;
+		color:white;
+		text-align: center;
+		font-size: 30px;
+	}
+
+	footer #cgu a{
+		margin: 0vh 30vw 2vh 30vw;
+		color:white;
+		text-align: center;
+		font-size: 30px;
+	}
+	
+}
+
+
+
 /* 
   ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
+  ##Screen = 1224px to higher resolution desktops
 */
 
-@media (min-width: 1281px) {
+@media (min-width: 1224px) and (max-width: 1823px) {
 
   	#header-rs{
 	padding-bottom: 0;
@@ -364,11 +530,11 @@ footer #cgu a:hover{
 	min-height: 110vh;
 	background-image: url("../ressources/bannière header web.png"); 
  	background-repeat: no-repeat;
-  	background-size: 100%;
+  	background-size: 100% 100%;
 	}
 
 	#section1-buttons{
-		margin-top:15vh;
+		margin-top:5vh;
 
 	}
 
@@ -402,7 +568,7 @@ footer #cgu a:hover{
   	}
 
 	#section2 #s2-row{
-		margin-top: 48vh;
+		margin-top: 45vh;
 	}
 
 	#section2 #first-txt{
@@ -422,8 +588,8 @@ footer #cgu a:hover{
 	}
 
 	footer{
-		padding-top:5vh;
-		padding-bottom: 12vh;
+		padding-top:6vh;
+		padding-bottom: 25vh;
 	}
 
 	footer #div-container{
@@ -499,10 +665,10 @@ footer #cgu a:hover{
 
 /* 
   ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
+  ##Screen = B/w 1025px to 1223px
 */
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1223px) {
 	
 	#header-rs{
 	padding-bottom: 0;
@@ -669,19 +835,19 @@ footer #cgu a:hover{
 @media (min-width: 768px) and (max-width: 1024px) {
 	
 	#header-rs{
-	padding-bottom: 0;
-	align-items: center;
+		padding-bottom: 0;
+		align-items: center;
 	}
 
 	#header-rs a div{
-	width:7vw;
-	background-size: 100%;
-	margin-right: 2vw;
+		margin-right: 2vw;
+		width:5vw;
+		background-size: 100%;
 	}
 
 
 	#logo-header{
-		width:120%;
+		width:100%;
 	}
 
 	#bard {
@@ -690,30 +856,30 @@ footer #cgu a:hover{
 	}
 
 	#section1{
-	min-height: 40vh;
-	background-image: url("../ressources/bannière header web.png"); 
- 	background-repeat: no-repeat;
-  	background-size: 100%;
+		min-height: 78vh;
+		background-image: url("../ressources/bannière header web.png"); 
+	 	background-repeat: no-repeat;
+	  	background-size: 100% 75%;
 	}
 
 	#section1-buttons{
-		margin-top:1vh;
+		margin-top:3vh;
 
 	}
 
 	button{
-		font-size: 12px;
+		font-size: 16px;
 	}
 
 	#section1-buttons button{
-		margin-bottom: 0vh;
-		padding: 20px 10px;
-		border-radius: 70px;
-		width:80%;
+		margin-bottom: 1vh;
+		padding: 15px 5px;
+		border-radius: 50px;
+		width:100%;
 	}
 
 	#section2{
-		padding-top:22vh;
+		padding-top:30vh;
 	}
 
 	#section2 h1{
@@ -722,17 +888,17 @@ footer #cgu a:hover{
 	}
 
 	#section2{
-	margin-top:-25vh;
-	min-height: 30vh;
-	background-image: url("../ressources/vague blanche transition web.png");
- 	background-repeat: no-repeat;
-  	background-size: 100%;
-  	margin-bottom: 5vh;
-  	z-index: 1;
+		margin-top:-50vh;
+		min-height: 75vh;
+		background-image: url("../ressources/vague blanche transition web.png");
+	 	background-repeat: no-repeat;
+	  	background-size: 100%;
+	  	margin-bottom: 5vh;
+	  	z-index: 1;
   	}
 
 	#section2 #s2-row{
-		margin-top: 0vh;
+		margin-top: 2vh;
 	}
 
 	#section2 #first-txt{
@@ -740,6 +906,7 @@ footer #cgu a:hover{
 	}
 
 	#section2 img{
+		margin-top: 2vh;
 		width:20vw;
 	}
 
@@ -753,7 +920,7 @@ footer #cgu a:hover{
 
 	footer{
 		padding-top:5vh;
-		padding-bottom:5vh;
+		padding-bottom: 45vh;
 	}
 
 	footer #div-container{
@@ -762,18 +929,17 @@ footer #cgu a:hover{
 
 	footer h1{
 		display:block;
-		margin-left:12vw;
+		padding-left: 3vw;
 		color: #E79AB3;
-		font-size: 35px;
+		font-size: 30px;
 		letter-spacing: 2px;
-		text-align: left;
 
 	}
 
 	footer #h1p1{
 		display:inline;
 		margin:0;
-		font-size: 35px;
+		font-size: 30px;
 
 	}
 
@@ -797,7 +963,7 @@ footer #cgu a:hover{
 
 	#redbuttonform{
 		margin-left: 4vw;
-		width:30%;
+		width:20%;
 	}
 
 	form label{
@@ -807,9 +973,23 @@ footer #cgu a:hover{
 	#logo-fin{
 		position: relative;
 		left:30%;
-		bottom:15vh;
+		bottom:43vh;
 		width: 10vw;
 
+	}
+
+	footer #copyright{
+		margin: 10vh 20vw 2vh 20vw;
+		color:white;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	footer #cgu a{
+		margin: 0vh 30vw 2vh 30vw;
+		color:white;
+		text-align: center;
+		font-size: 20px;
 	}
 }
 /* 
@@ -840,14 +1020,14 @@ footer #cgu a:hover{
 	}
 
 	#section1{
-		min-height: 65vh;
+		min-height: 78vh;
 		background-image: url("../ressources/bannière header web.png"); 
 	 	background-repeat: no-repeat;
-	  	background-size: 100% 100%;
+	  	background-size: 100% 75%;
 	}
 
 	#section1-buttons{
-		margin-top:0vh;
+		margin-top:3vh;
 
 	}
 
@@ -872,7 +1052,7 @@ footer #cgu a:hover{
 	}
 
 	#section2{
-		margin-top:-34vh;
+		margin-top:-57vh;
 		min-height: 75vh;
 		background-image: url("../ressources/vague blanche transition web.png");
 	 	background-repeat: no-repeat;
@@ -882,7 +1062,7 @@ footer #cgu a:hover{
   	}
 
 	#section2 #s2-row{
-		margin-top: 5vh;
+		margin-top: 15vh;
 	}
 
 	#section2 #first-txt{
@@ -904,7 +1084,7 @@ footer #cgu a:hover{
 
 	footer{
 		padding-top:5vh;
-		padding-bottom: 60vh;
+		padding-bottom: 35vh;
 	}
 
 	footer #div-container{
