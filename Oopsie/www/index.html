@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Oopsie</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 	<link rel="stylesheet" href="./lib/bootstrap-4.3.1/css/bootstrap.css">
 	<style>
 
@@ -37,11 +37,16 @@
 	header{
 		width:100%;
 		background-color: #4D4D4D;
-		height:15vh;
+		min-height: 15vh;
+	}
+
+	header img{
+		max-width: 100%;
+	    height: auto;
 	}
 	
 	#logo-home{
-		  height: 15vh;
+		  min-height:15vh;
 		  display: flex;
 		  justify-content: center;
 		  align-items: center;
@@ -54,8 +59,9 @@
 	}
 
 	section{
-		height: 70vh;
+		min-height: 70vh;
 		color:#D6006D;
+		margin-bottom:5vh; 
 	}
 
 	section img{
@@ -76,13 +82,14 @@
 
 	footer{
 		background-color: #4D4D4D;
-		height: 15vh;
+		min-height: 15vh;
 		color: white;
 		font-size: 17px;
+		min-height: 15vh;
 	}
 	
 	#footer-center{
-		  height: 15vh;
+		  min-height: 15vh;
 		  display: flex;
 		  justify-content: center;
 		  align-items: center;
