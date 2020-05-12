@@ -366,7 +366,7 @@ footer #cgu a:hover{
 	}
 
 	#section1-buttons{
-		margin-top:10vh;
+		margin-top:5vh;
 
 	}
 
@@ -375,13 +375,13 @@ footer #cgu a:hover{
 	}
 
 	#section1-buttons button{
-		margin-bottom: 6vh;
+		margin-bottom: 4vh;
 		padding: 30px 5px;
 		border-radius: 60px;
 	}
 
 	#section2{
-		padding-top:30vh;
+		padding-top:10vh;
 	}
 
 	#section2 h1{
@@ -401,7 +401,7 @@ footer #cgu a:hover{
   	}
 
 	#section2 #s2-row{
-		margin-top: 70vh;
+		margin-top: 50vh;
 	}
 
 	#section2 #first-txt{
@@ -409,6 +409,7 @@ footer #cgu a:hover{
 	}
 
 	#section2 img{
+		margin-top: 5vh;
 		width:20vw;
 	}
 
@@ -422,7 +423,7 @@ footer #cgu a:hover{
 
 	footer{
 		padding-top:6vh;
-		padding-bottom: 45vh;
+		padding-bottom: 25vh;
 	}
 
 	footer #div-container{
@@ -470,29 +471,29 @@ footer #cgu a:hover{
 
 	form label{
 		padding-right:20vw;
-		font-size: 25px;
+		font-size: 22px;
 	}
 
 	#logo-fin{
 		position: relative;
 		left:30%;
-		bottom:45vh;
+		bottom:40vh;
 		width: 6vw;
 
 	}
 
 	footer #copyright{
-		margin: 6vh 30vw 2vh 30vw;
+		margin: 8vh 30vw 2vh 30vw;
 		color:white;
 		text-align: center;
-		font-size: 30px;
+		font-size:25px;
 	}
 
 	footer #cgu a{
 		margin: 0vh 30vw 2vh 30vw;
 		color:white;
 		text-align: center;
-		font-size: 30px;
+		font-size: 25px;
 	}
 	
 }
