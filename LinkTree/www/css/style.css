@@ -138,7 +138,7 @@ button{
 	filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.5))
 }
 
-.button:focus{
+button:focus{
 	outline:none;
 }
 
@@ -250,6 +250,9 @@ form input[placeholder]{
 	border-color: white;
 }
 
+form input[placeholder]:focus{
+	outline:none;
+}
 
 
 form #input2{
