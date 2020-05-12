@@ -332,10 +332,172 @@ footer #cgu a:hover{
 
 
 /* MEDIA QUERIES */
+@media (min-width : 2400px) {
+
+  	#header-rs{
+	padding-bottom: 0;
+	align-items: center;
+	}
+
+	#header-rs a div{
+	width:5vw;
+	background-size: 80%;
+	}
+
+
+	#logo-header{
+	width:80%;
+	height: 25vh;
+	}
+
+	#bard {
+		margin-top:5vh;
+		width:50%;
+	}
+
+	#section1{
+	min-height: 110vh;
+	background-image: url("../ressources/bannière header web.png"); 
+ 	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+	}
+
+	#section1-buttons{
+		margin-top:8vh;
+
+	}
+
+	button{
+		font-size: 22px;
+	}
+
+	#section1-buttons button{
+		margin-bottom: 4vh;
+		padding: 30px 5px;
+		border-radius: 60px;
+	}
+
+	#section2{
+		padding-top:10vh;
+	}
+
+	#section2 h1{
+		font-size:45px;
+		margin-bottom: 4vh;
+
+	}
+
+	#section2{
+	margin-top:-85vh;
+	min-height: 75vh;
+	background-image: url("../ressources/vague blanche transition web.png");
+ 	background-repeat: no-repeat;
+  	background-size: 100%;
+  	margin-bottom: 15vh;
+  	z-index: 1;
+  	}
+
+	#section2 #s2-row{
+		margin-top: 90vh;
+	}
+
+	#section2 #first-txt{
+		margin-top: 0;
+	}
+
+	#section2 img{
+		margin-top: 5vh;
+		width:20vw;
+	}
+
+	#section2 #img1{
+		padding-left: 10vw;
+	}
+
+	#section2 #img3{
+		padding-right:10vw;
+	}
+
+	footer{
+		padding-top:6vh;
+		padding-bottom: 30vh;
+	}
+
+	footer #div-container{
+		max-height:55vh;
+	}
+
+	footer h1{
+		display:inline;
+		padding-left: 12vw;
+		color: #E79AB3;
+		font-size: 45px;
+		letter-spacing: 2px;
+
+	}
+
+	footer #h1p1{
+		display:inline;
+		margin:0;
+		font-size: 45px;
+
+	}
+
+	footer form{
+		margin-top: 4vh;
+		padding-left:12vw;
+	}
+
+	form input[placeholder]{
+	display: block;
+	padding:15px 15px;	
+	}
+
+	form #input1{
+		width:20%;
+	}
+
+	form #input2{
+		width:30%;
+	}
+
+	#redbuttonform{
+		margin-left: 4vw;
+		width:20%;
+	}
+
+	form label{
+		padding-right:20vw;
+		font-size: 22px;
+	}
+
+	#logo-fin{
+		position: relative;
+		left:30%;
+		bottom:45vh;
+		width: 6vw;
+
+	}
+
+	footer #copyright{
+		margin: 8vh 30vw 2vh 30vw;
+		color:white;
+		text-align: center;
+		font-size:25px;
+	}
+
+	footer #cgu a{
+		margin: 0vh 30vw 2vh 30vw;
+		color:white;
+		text-align: center;
+		font-size: 25px;
+	}
+	
+}
 
 
 
-@media (min-width : 1824px) {
+@media (min-width : 1824px) and (max-width: 2399px) {
 
   	#header-rs{
 	padding-bottom: 0;
