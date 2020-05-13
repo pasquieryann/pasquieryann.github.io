@@ -10,11 +10,23 @@
 	* {
 	    padding: 0;
 	    margin: 0;
+	    -moz-box-sizing: border-box; 
+	    box-sizing: border-box;
+	}
+	
+	html, body {
+		height: 100%;
+		margin: 0; padding: 0;
+	}
+	body {
+		display : table;
+		width: 100%;
+	}
+	footer {
+		display : table-row;
 	}
 
-	html{
-		height:100%;
-	}
+
 
 	@font-face {
 		 font-family: "Roboto-Regular";
@@ -28,8 +40,7 @@
 
 	body {
 		font-family: Roboto-Regular;
-		min-height: 100%;
-		position: relative;
+
 	}
 
 	b{
@@ -92,25 +103,24 @@
 	}
 
 	footer{
-		position: absolute;
-		bottom: 0;
+
 		width: 100%;
 		background-color: #4D4D4D;
 		color: white;
 		font-size: 15px;
-		min-height: 15vh;
-		padding:2vh 0;
 	}
 	
 	#footer-center{
-		  min-height: 15vh;
+
 		  display: flex;
 		  align-items: center;
 	}
 
 	footer p{
+		padding: 4vh 0 3vh 0;
 		margin-left:8vw;
 		margin-right: 15vw;
+		margin-bottom: 0;
 	}
 
 
@@ -124,9 +134,82 @@
 		text-decoration: none;
 	}
 	
+	@media (min-width: 2401px){
+		
+		header{
+			height: 15vh;
+		}
+
+	
+		#logo-home{
+			  min-height:15vh;
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+	
+		}
+
+		#logo-home img{
+			width:10%;
+		}
 
 
-	@media (min-width: 1224px){
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		section{
+			padding-bottom:5vh; 
+		}
+
+		section img{
+			width: 40%; 
+			padding-top: 4vh;
+			padding-bottom: 7vh;
+		}
+
+		section h1{
+			font-size:40px;
+			letter-spacing: 3px;
+			margin-bottom: 2vh;
+			margin-left:8vw;
+			margin-right:8vw;
+		}
+
+		section p{
+			font-size:22px;
+			letter-spacing: 1px;
+			margin-left:8.5vw;
+			margin-right:8.5vw;
+		}
+
+		footer{
+			color: white;
+			font-size: 17px;
+
+		}
+		
+		#footer-center{
+			  display: flex;
+			  align-items: center;
+		}
+
+		footer p{
+			padding: 5vh 0 3vh 0;
+			margin-left:8vw;
+			margin-right: 15vw;
+			margin-bottom: 0;
+		}
+	}
+
+	@media (min-width: 1224px) and (max-width: 2400px){
+		
+		body{
+			padding-bottom:0vh;
+		}
+
 		header{
 			height: 15vh;
 		}
@@ -152,7 +235,6 @@
 		}
 
 		section{
-			min-height: 75vh;
 			padding-bottom:5vh; 
 		}
 
@@ -178,25 +260,30 @@
 		}
 
 		footer{
-			min-height: 10vh;
 			color: white;
 			font-size: 17px;
 
 		}
 		
 		#footer-center{
-			  min-height: 10vh;
 			  display: flex;
 			  align-items: center;
 		}
 
 		footer p{
+			padding: 5vh 0 3vh 0;
 			margin-left:8vw;
 			margin-right: 15vw;
+			margin-bottom: 0;
 		}
 	}
 
 	@media (min-width: 1025px) and (max-width: 1223px) {
+		
+		body{
+			padding-bottom:0vh;
+		}
+
 		header{
 			height: 15vh;
 		}
@@ -222,8 +309,6 @@
 		}
 
 		section{
-
-			min-height: 70vh;
 			padding-bottom:5vh; 
 		}
 
@@ -249,25 +334,32 @@
 		}
 
 		footer{
-			min-height: 15vh;
+			padding:3vh 0;
 			color: white;
 			font-size: 17px;
 
 		}
 		
 		#footer-center{
-			  min-height: 15vh;
+
 			  display: flex;
 			  align-items: center;
 		}
 
 		footer p{
+			padding: 5vh 0 3vh 0;
 			margin-left:8vw;
 			margin-right: 15vw;
+			margin-bottom: 0;
 		}
 	}
 
 	@media (min-width: 768px) and (max-width: 1024px) {
+		
+		body{
+			padding-bottom:0vh;
+		}
+
 		header{
 			height: 15vh;
 		}
@@ -293,7 +385,6 @@
 		}
 
 		section{
-			min-height: 70vh;
 			padding-bottom:5vh; 
 		}
 
@@ -317,21 +408,23 @@
 		}
 
 		footer{
-			min-height: 15vh;
+			padding:3vh 0;
 			color: white;
 			font-size: 17px;
 
 		}
 		
 		#footer-center{
-			  min-height: 15vh;
+
 			  display: flex;
 			  align-items: center;
 		}
 
 		footer p{
+			padding: 5vh 0 3vh 0;
 			margin-left:8vw;
 			margin-right: 15vw;
+			margin-bottom: 0;
 		}
 	}
 
@@ -361,7 +454,6 @@
 		}
 
 		section{
-			min-height: 70vh;
 			padding-bottom:5vh; 
 		}
 
@@ -387,21 +479,23 @@
 		}
 
 		footer{
-			min-height: 15vh;
+			padding:3vh 0;
 			color: white;
 			font-size: 17px;
 
 		}
 		
 		#footer-center{
-			  min-height: 15vh;
+
 			  display: flex;
 			  align-items: center;
 		}
 
 		footer p{
+			padding: 5vh 0 3vh 0;
 			margin-left:8vw;
 			margin-right: 15vw;
+			margin-bottom: 0;
 		}
 	}
 
@@ -430,11 +524,9 @@
 	<footer>
 		<div class="container-fluid">
 			<div id="footer-center">
-				<div id="div-footer">
 					<p id="copyright">© 2020 Black Book Editions. Game On and Game On Tabletop are registered trademarks. All rights reserved.
 					<br>
 					<a href="https://www.gameontabletop.com/about/cgu.html" target="_blank"> Legal Notice</a></p>
-				</div>
 			</div>
 		</div>
 	</footer>
