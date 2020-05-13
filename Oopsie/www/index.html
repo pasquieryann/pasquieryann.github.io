@@ -13,7 +13,7 @@
 	}
 
 	html{
-		max-height: 100vh;
+		height:100%;
 	}
 
 	@font-face {
@@ -27,10 +27,9 @@
 	}
 
 	body {
-		color: black;
 		font-family: Roboto-Regular;
-		font-size: 20px;
-
+		min-height: 100%;
+		position: relative;
 	}
 
 	b{
@@ -56,25 +55,29 @@
 		  align-items: center;
 	}
 
+	#logo-home img{
+		width:50%;
+	}
+
 	.center {
 		display: block;
 		margin-left: auto;
-		margin-right: auto;
+		margin-right: auto;	
 	}
 
 	section{
-		height: 70vh;
 		color:#D6006D;
-		padding-bottom:5vh; 
+		padding-bottom:4vh; 
 	}
 
 	section img{
+		width: 60%; 
 		padding-top: 4vh;
 		padding-bottom: 7vh;
 	}
 
 	section h1{
-		font-size:40px;
+		font-size:20px;
 		letter-spacing: 3px;
 		margin-bottom: 2vh;
 		margin-left:8vw;
@@ -82,36 +85,34 @@
 	}
 
 	section p{
-		font-size:22px;
+		font-size:15px;
 		letter-spacing: 1px;
 		margin-left:8.5vw;
 		margin-right:8.5vw;
 	}
 
 	footer{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
 		background-color: #4D4D4D;
-		height: 15vh;
 		color: white;
-		font-size: 17px;
+		font-size: 15px;
 		min-height: 15vh;
+		padding:2vh;
 	}
 	
 	#footer-center{
 		  min-height: 15vh;
 		  display: flex;
-		  justify-content: center;
 		  align-items: center;
 	}
 
 	footer p{
-		margin-left:3vw;
+		margin-left:8vw;
 		margin-right: 15vw;
 	}
 
-	footer img{
-		position: relative;
-		left:15vw;
-	}
 
 	footer a{
 		color:white;
@@ -122,7 +123,287 @@
 		color:white;
 		text-decoration: none;
 	}
+	
 
+
+	@media (min-width: 1224px){
+		header{
+			height: 15vh;
+		}
+
+	
+		#logo-home{
+			  min-height:15vh;
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+	
+		}
+
+		#logo-home img{
+			width:15%;
+		}
+
+
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		section{
+			min-height: 70vh;
+			padding-bottom:5vh; 
+		}
+
+		section img{
+			width: 40%; 
+			padding-top: 4vh;
+			padding-bottom: 7vh;
+		}
+
+		section h1{
+			font-size:40px;
+			letter-spacing: 3px;
+			margin-bottom: 2vh;
+			margin-left:8vw;
+			margin-right:8vw;
+		}
+
+		section p{
+			font-size:22px;
+			letter-spacing: 1px;
+			margin-left:8.5vw;
+			margin-right:8.5vw;
+		}
+
+		footer{
+			min-height: 15vh;
+			color: white;
+			font-size: 17px;
+
+		}
+		
+		#footer-center{
+			  min-height: 15vh;
+			  display: flex;
+			  align-items: center;
+		}
+
+		footer p{
+			margin-left:8vw;
+			margin-right: 15vw;
+		}
+	}
+
+	@media (min-width: 1025px) and (max-width: 1223px) {
+		header{
+			height: 15vh;
+		}
+
+	
+		#logo-home{
+			  min-height:15vh;
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+	
+		}
+
+		#logo-home img{
+			width:25%;
+		}
+
+
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		section{
+
+			min-height: 70vh;
+			padding-bottom:5vh; 
+		}
+
+		section img{
+			width: 40%; 
+			padding-top: 4vh;
+			padding-bottom: 7vh;
+		}
+
+		section h1{
+			font-size:40px;
+			letter-spacing: 3px;
+			margin-bottom: 2vh;
+			margin-left:8vw;
+			margin-right:8vw;
+		}
+
+		section p{
+			font-size:22px;
+			letter-spacing: 1px;
+			margin-left:8.5vw;
+			margin-right:8.5vw;
+		}
+
+		footer{
+			min-height: 15vh;
+			color: white;
+			font-size: 17px;
+
+		}
+		
+		#footer-center{
+			  min-height: 15vh;
+			  display: flex;
+			  align-items: center;
+		}
+
+		footer p{
+			margin-left:8vw;
+			margin-right: 15vw;
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 1024px) {
+		header{
+			height: 15vh;
+		}
+
+	
+		#logo-home{
+			  min-height:15vh;
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+	
+		}
+
+		#logo-home img{
+			width:25%;
+		}
+
+
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		section{
+			min-height: 70vh;
+			padding-bottom:5vh; 
+		}
+
+		section img{
+			width: 40%; 
+			padding-top: 6vh;
+			padding-bottom: 10vh;
+		}
+
+		section h1{
+			font-size:35px;
+			letter-spacing: 3px;
+			margin-bottom: 2vh;
+			margin: 0 10vw;
+		}
+
+		section p{
+			font-size:20px;
+			letter-spacing: 1px;
+			margin: 0 10.5vw;
+		}
+
+		footer{
+			min-height: 15vh;
+			color: white;
+			font-size: 17px;
+
+		}
+		
+		#footer-center{
+			  min-height: 15vh;
+			  display: flex;
+			  align-items: center;
+		}
+
+		footer p{
+			margin-left:8vw;
+			margin-right: 15vw;
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+		header{
+			height: 15vh;
+		}
+
+	
+		#logo-home{
+			  min-height:15vh;
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+	
+		}
+
+		#logo-home img{
+			width:15%;
+		}
+
+
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		section{
+			min-height: 70vh;
+			padding-bottom:5vh; 
+		}
+
+		section img{ 
+			width: 40%; 
+			padding-top: 4vh;
+			padding-bottom: 7vh;
+		}
+
+		section h1{
+			font-size:40px;
+			letter-spacing: 3px;
+			margin-bottom: 2vh;
+			margin-left:8vw;
+			margin-right:8vw;
+		}
+
+		section p{
+			font-size:22px;
+			letter-spacing: 1px;
+			margin-left:8.5vw;
+			margin-right:8.5vw;
+		}
+
+		footer{
+			min-height: 15vh;
+			color: white;
+			font-size: 17px;
+
+		}
+		
+		#footer-center{
+			  min-height: 15vh;
+			  display: flex;
+			  align-items: center;
+		}
+
+		footer p{
+			margin-left:8vw;
+			margin-right: 15vw;
+		}
+	}
 
 
 	</style>
@@ -130,7 +411,7 @@
 <body>
 	<header>
 		<div id="logo-home">
-			<img class="center" width="15%" src="./ressources/logo long blanc.png">
+			<img class="center" src="./ressources/logo long blanc.png">
 		</div>
 
 	</header>
@@ -138,7 +419,7 @@
 
 	<section>
 		<div class="container">
-			<img class="center" width="40%" src="./ressources/illustration.png">
+			<img class="center" src="./ressources/illustration.png">
 			<h1><b>Oopsie..</b></h1>
 			<p>Seems like too many of you want to support great games at this very moment! Our website can't handle <b>that much love at the same time.</b></p>
 			<p>We can't redirect you to Game On Tabletop right now. <b>Please try again later after rolling a dice or two!</b></p>
@@ -148,14 +429,11 @@
 
 	<footer>
 		<div class="container-fluid">
-			<div id="footer-center" class="row">
-				<div id="div-footer" class="col-9">
+			<div id="footer-center">
+				<div id="div-footer">
 					<p id="copyright">© 2020 Black Book Editions. Game On and Game On Tabletop are registered trademarks. All rights reserved.
 					<br>
 					<a href="https://www.gameontabletop.com/about/cgu.html" target="_blank"> Legal Notice</a></p>
-				</div>
-				<div class="col-3">
-					<img id="logo-footer" width="15%" src="./ressources/g blanc.png">
 				</div>
 			</div>
 		</div>
