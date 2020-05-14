@@ -412,17 +412,17 @@ footer #cgu a:hover{
 	}
 
 	#section2{
-	margin-top:-85vh;
-	min-height: 75vh;
-	background-image: url("../ressources/vague blanche transition web.png");
- 	background-repeat: no-repeat;
-  	background-size: 100%;
-  	margin-bottom: 15vh;
-  	z-index: 1;
+		margin-top:-90vh;
+		min-height: 75vh;
+		background-image: url("../ressources/vague blanche transition web.png");
+	 	background-repeat: no-repeat;
+	  	background-size: 100%;
+	  	margin-bottom: 15vh;
+	  	z-index: 1;
   	}
 
 	#section2 #s2-row{
-		margin-top: 65vh;
+		padding-top: 85vh;
 	}
 
 	#section2 #first-txt{
@@ -491,7 +491,7 @@ footer #cgu a:hover{
 
 	#logo-fin{
 		display: inline;
-		width: 6vw;
+		width: 4vw;
 		padding-top: 0;
 
 	}
@@ -645,9 +645,12 @@ footer #cgu a:hover{
 	}
 
 	#redbuttonform{
+		display: inline;
 		margin-left: 4vw;
 		width:20%;
+		margin-right: 40vw;
 	}
+
 
 	form label{
 		padding-right:20vw;
@@ -748,7 +751,7 @@ footer #cgu a:hover{
   	}
 
 	#section2 #s2-row{
-		margin-top: 45vh;
+		padding-top: 55vh;
 	}
 
 	#section2 #first-txt{
