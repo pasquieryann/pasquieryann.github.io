@@ -14,7 +14,7 @@ html, body {
 
 body {
 	display : table;
-	width: 100%
+	width: 100%;
 	color: black;
 	font-family: Roboto-Bold;
 	font-size: 20px;
@@ -228,23 +228,24 @@ transform: translate(0, -10px);
 footer{
 	display : table-row;
 	width:100%;
-	height: 110vh;
-	padding-top: 7vh;
+	height: 0vh;
 	background-color: #4D4D4D;
-	padding-bottom: 10vh;
 }
 
+footer>div{
+	padding-top:3vh;
+}
 
 footer h1{
 	display: block;
 	margin-left: auto;
-	margin-right: auto;
-	margin-top: 3vh;
+	margin-right: auto;	
 	text-align: center;
 	color: #E79AB3;
 	font-size: 25px;
 	max-width:60%;
-	margin-bottom:6vh;
+	padding-top: 3vh;
+	padding-bottom:4vh;
 }
 
 
@@ -312,17 +313,18 @@ form #input2{
 
 
 footer label{
-	margin-top:2vh;
-	margin-bottom: 2vh;
+	padding-top:2vh;
+	padding-bottom: 2vh;
 	margin-left:5%;
 	margin-right:5%;
 	font-family: Roboto-Medium;
 	font-size: 17px;
 	color:white;
+	margin-bottom: 0;
 }
 
 footer #copyright{
-	margin:8vh 3vh 1vh 3vh;
+	padding:8vh 3vh 1vh 3vh;
 	color:white;
 	text-align: center;
 	font-size: 17px;
@@ -330,6 +332,7 @@ footer #copyright{
 
 footer #cgu {
 	text-align: center;
+	padding-bottom: 4vh;
 }
 
 footer #cgu a{
@@ -419,7 +422,7 @@ footer #cgu a:hover{
   	}
 
 	#section2 #s2-row{
-		margin-top: 90vh;
+		margin-top: 65vh;
 	}
 
 	#section2 #first-txt{
@@ -439,14 +442,6 @@ footer #cgu a:hover{
 		padding-right:10vw;
 	}
 
-	footer{
-		padding-top:6vh;
-		padding-bottom: 30vh;
-	}
-
-	footer #div-container{
-		max-height:55vh;
-	}
 
 	footer h1{
 		display:inline;
@@ -483,8 +478,10 @@ footer #cgu a:hover{
 	}
 
 	#redbuttonform{
+		display: inline;
 		margin-left: 4vw;
 		width:20%;
+		margin-right: 40vw;
 	}
 
 	form label{
@@ -493,22 +490,21 @@ footer #cgu a:hover{
 	}
 
 	#logo-fin{
-		position: relative;
-		left:30%;
-		bottom:45vh;
+		display: inline;
 		width: 6vw;
+		padding-top: 0;
 
 	}
 
 	footer #copyright{
-		margin: 8vh 30vw 2vh 30vw;
+		padding: 6vh 30vw 0vh 30vw;
 		color:white;
 		text-align: center;
 		font-size:25px;
 	}
 
 	footer #cgu a{
-		margin: 0vh 30vw 2vh 30vw;
+		padding: 0vh 30vw 2vh 30vw;
 		color:white;
 		text-align: center;
 		font-size: 25px;
@@ -659,10 +655,9 @@ footer #cgu a:hover{
 	}
 
 	#logo-fin{
-		position: relative;
-		left:30%;
-		bottom:40vh;
+		display: inline;
 		width: 6vw;
+		padding-top: 0;
 
 	}
 
@@ -747,7 +742,7 @@ footer #cgu a:hover{
 	min-height: 75vh;
 	background-image: url("../ressources/vague blanche transition web.png");
  	background-repeat: no-repeat;
-  	background-size: 100%;
+  	background-size: 100% 100%;
   	margin-bottom: 15vh;
   	z-index: 1;
   	}
@@ -772,15 +767,6 @@ footer #cgu a:hover{
 		padding-right:10vw;
 	}
 
-	footer{
-		height: 70vh;
-		padding-top:6vh;
-		padding-bottom: 25vh;
-	}
-
-	footer #div-container{
-		max-height:55vh;
-	}
 
 	footer h1{
 		display:inline;
@@ -817,24 +803,26 @@ footer #cgu a:hover{
 	}
 
 	#redbuttonform{
+		display: inline;
 		margin-left: 4vw;
 		width:20%;
+		margin-right: 40vw;
 	}
+
 
 	form label{
 		padding-right:20vw;
 	}
 
 	#logo-fin{
-		position: relative;
-		left:30%;
-		bottom:35vh;
+		display: inline;
 		width: 6vw;
+		padding-top: 0;
 
 	}
 
 	footer #copyright{
-		margin: 6vh 30vw 2vh 30vw;
+		padding: 6vh 30vw 2vh 30vw;
 		color:white;
 		text-align: center;
 		font-size: 20px;
@@ -937,15 +925,7 @@ footer #cgu a:hover{
 		padding-right:10vw;
 	}
 
-	footer{
-		height: 70vh;
-		padding-top:5vh;
-		padding-bottom: 12vh;
-	}
 
-	footer #div-container{
-		max-height:55vh;
-	}
 
 	footer h1{
 		display:inline;
@@ -982,8 +962,10 @@ footer #cgu a:hover{
 	}
 
 	#redbuttonform{
+		display: inline;
 		margin-left: 4vw;
 		width:20%;
+		margin-right:40vw;
 	}
 
 	form label{
@@ -991,10 +973,9 @@ footer #cgu a:hover{
 	}
 
 	#logo-fin{
-		position: relative;
-		left:30%;
-		bottom:35vh;
+		display: inline;
 		width: 6vw;
+		padding-top: 0;
 
 	}
 
@@ -1038,7 +1019,7 @@ footer #cgu a:hover{
 	}
 
 	#bard {
-		margin-top:5vh;
+		padding-top:5vh;
 		width:80%;
 	}
 
@@ -1080,12 +1061,12 @@ footer #cgu a:hover{
 		background-image: url("../ressources/vague blanche transition web.png");
 	 	background-repeat: no-repeat;
 	  	background-size: 100%;
-	  	margin-bottom: 5vh;
+	  	padding-bottom: 5vh;
 	  	z-index: 1;
   	}
 
 	#section2 #s2-row{
-		margin-top: 2vh;
+		padding-top: 2vh;
 	}
 
 	#section2 #first-txt{
@@ -1093,7 +1074,7 @@ footer #cgu a:hover{
 	}
 
 	#section2 img{
-		margin-top: 2vh;
+		padding-top: 2vh;
 		width:20vw;
 	}
 
@@ -1105,15 +1086,6 @@ footer #cgu a:hover{
 		padding-right:10vw;
 	}
 
-	footer{
-		height: 90vh;
-		padding-top:5vh;
-		padding-bottom: 45vh;
-	}
-
-	footer #div-container{
-		max-height:55vh;
-	}
 
 	footer h1{
 		display:block;
@@ -1132,13 +1104,13 @@ footer #cgu a:hover{
 	}
 
 	footer form{
-		margin-top: 4vh;
+		padding-top: 4vh;
 		padding-left:12vw;
 	}
 
 	form input[placeholder]{
-	display: block;
-	padding:15px 15px;	
+		display: block;
+		padding:15px 15px;	
 	}
 
 	form #input1{
@@ -1150,8 +1122,10 @@ footer #cgu a:hover{
 	}
 
 	#redbuttonform{
+		display: inline;
 		margin-left: 4vw;
 		width:20%;
+		margin-right: 40vw;
 	}
 
 	form label{
@@ -1159,25 +1133,26 @@ footer #cgu a:hover{
 	}
 
 	#logo-fin{
-		position: relative;
-		left:30%;
-		bottom:36vh;
-		width: 10vw;
+			display: inline;
+			width: 6vw;
+			padding-top: 0;
 
-	}
+		}
 
 	footer #copyright{
-		margin: 8vh 20vw 2vh 20vw;
+		padding: 6vh 20vw 2vh 20vw;
 		color:white;
 		text-align: center;
 		font-size: 20px;
+		margin:0;
 	}
 
 	footer #cgu a{
-		margin: 0vh 30vw 2vh 30vw;
+		padding: 0vh 30vw 2vh 30vw;
 		color:white;
 		text-align: center;
 		font-size: 20px;
+		margin:0;
 	}
 }
 /* 
@@ -1215,7 +1190,7 @@ footer #cgu a:hover{
 	}
 
 	#section1-buttons{
-		margin-top:3vh;
+		padding-top:3vh;
 
 	}
 
@@ -1240,25 +1215,22 @@ footer #cgu a:hover{
 	}
 
 	#section2{
-		margin-top:-57vh;
+		margin-top:-50vh;
 		min-height: 75vh;
 		background-image: url("../ressources/vague blanche transition web.png");
 	 	background-repeat: no-repeat;
 	  	background-size: 100%;
-	  	margin-bottom: 5vh;
+	  	padding-bottom: 5vh;
 	  	z-index: 1;
   	}
 
-	#section2 #s2-row{
-		margin-top: 15vh;
-	}
 
 	#section2 #first-txt{
 		margin-top: 0;
 	}
 
 	#section2 img{
-		margin-top: 2vh;
+		padding-top: 2vh;
 		width:20vw;
 	}
 
@@ -1270,14 +1242,6 @@ footer #cgu a:hover{
 		padding-right:10vw;
 	}
 
-	footer{
-		padding-top:5vh;
-		padding-bottom: 35vh;
-	}
-
-	footer #div-container{
-		max-height:55vh;
-	}
 
 	footer h1{
 		display:block;
@@ -1296,13 +1260,13 @@ footer #cgu a:hover{
 	}
 
 	footer form{
-		margin-top: 4vh;
+		padding-top: 4vh;
 		padding-left:12vw;
 	}
 
 	form input[placeholder]{
-	display: block;
-	padding:15px 15px;	
+		display: block;
+		padding:15px 15px;	
 	}
 
 	form #input1{
@@ -1314,8 +1278,10 @@ footer #cgu a:hover{
 	}
 
 	#redbuttonform{
+		display: inline;
 		margin-left: 4vw;
 		width:20%;
+		margin-right: 40vw;
 	}
 
 	form label{
@@ -1323,22 +1289,21 @@ footer #cgu a:hover{
 	}
 
 	#logo-fin{
-		position: relative;
-		left:30%;
-		bottom:48vh;
-		width: 10vw;
+		display: inline;
+		width: 6vw;
+		padding-top: 0;
 
 	}
 
 	footer #copyright{
-		margin: 10vh 20vw 2vh 20vw;
+		padding: 10vh 20vw 2vh 20vw;
 		color:white;
 		text-align: center;
 		font-size: 20px;
 	}
 
 	footer #cgu a{
-		margin: 0vh 30vw 2vh 30vw;
+		padding: 0vh 30vw 2vh 30vw;
 		color:white;
 		text-align: center;
 		font-size: 20px;
