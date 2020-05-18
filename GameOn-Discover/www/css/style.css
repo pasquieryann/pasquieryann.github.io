@@ -445,6 +445,7 @@ footer #cgu a:hover{
 	}
 
 
+
 	footer h1{
 		display:inline;
 		padding-left: 12vw;
@@ -517,6 +518,7 @@ footer #cgu a:hover{
 
 
 @media (min-width : 1824px) and (max-width: 2399px) {
+
 
   	#header-rs{
 	padding-bottom: 0;
@@ -609,7 +611,7 @@ footer #cgu a:hover{
 
 	footer h1{
 		display:inline;
-		padding-left: 12vw;
+		padding-left: 15vw;
 		color: #E79AB3;
 		font-size: 45px;
 		letter-spacing: 2px;
@@ -625,7 +627,7 @@ footer #cgu a:hover{
 
 	footer form{
 		margin-top: 4vh;
-		padding-left:7.5vw;
+		padding-left:10vw;
 	}
 
 	form input[placeholder]{
@@ -656,7 +658,7 @@ footer #cgu a:hover{
 
 	#logo-fin{
 		display: inline;
-		width: 6vw;
+		width: 5vw;
 		padding-top: 0;
 
 	}
@@ -774,7 +776,7 @@ footer #cgu a:hover{
 
 	footer h1{
 		display:inline;
-		padding-left: 12vw;
+		padding-left: 15vw;
 		color: #E79AB3;
 		font-size: 40px;
 		letter-spacing: 2px;
@@ -790,7 +792,7 @@ footer #cgu a:hover{
 
 	footer form{
 		padding-top: 4vh;
-		padding-left:7.5vw;
+		padding-left:10vw;
 	}
 
 	form input[placeholder]{
@@ -820,7 +822,7 @@ footer #cgu a:hover{
 
 	#logo-fin{
 		display: inline;
-		width: 6vw;
+		width: 5vw;
 		padding-top: 0;
 
 	}
