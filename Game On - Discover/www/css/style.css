@@ -124,7 +124,7 @@ header{
 
 #section1{
 	min-height: 110vh;
-	background-image: url("../ressources/bannière header mobile.png"); 
+	background-image: url("../ressources/bannière header mobile grand.png"); 
  	background-repeat: no-repeat;
   	background-size: 100% 100%;
   	margin-bottom: 3vh;
@@ -324,20 +324,22 @@ footer label{
 }
 
 footer #copyright{
-	padding:8vh 3vh 1vh 3vh;
-	color:white;
+	padding:8vh 3vh 0vh 3vh;
+	color:lightgrey;
 	text-align: center;
-	font-size: 17px;
+	font-size: 12px;
+	margin-bottom: 0;
 }
 
 footer #cgu {
 	text-align: center;
 	padding-bottom: 4vh;
+	margin-bottom: 0;
 }
 
 footer #cgu a{
-	color:white;
-	font-size: 17px;
+	color:lightgrey;
+	font-size: 12px;
 	text-decoration: underline;
 }
 
@@ -381,7 +383,7 @@ footer #cgu a:hover{
 
 	#section1{
 	min-height: 110vh;
-	background-image: url("../ressources/bannière header web.png"); 
+	background-image: url("../ressources/bannière-header-très-grande.jpg"); 
  	background-repeat: no-repeat;
   	background-size: 100% 100%;
 	}
@@ -461,12 +463,12 @@ footer #cgu a:hover{
 
 	footer form{
 		margin-top: 4vh;
-		padding-left:12vw;
+		padding-left:7vw;
 	}
 
 	form input[placeholder]{
-	display: block;
-	padding:15px 15px;	
+		display: block;
+		padding:15px 15px;	
 	}
 
 	form #input1{
@@ -479,7 +481,7 @@ footer #cgu a:hover{
 
 	#redbuttonform{
 		display: inline;
-		margin-left: 4vw;
+		margin-left: 4.5vw;
 		width:20%;
 		margin-right: 40vw;
 	}
@@ -497,17 +499,17 @@ footer #cgu a:hover{
 	}
 
 	footer #copyright{
-		padding: 6vh 30vw 0vh 30vw;
-		color:white;
+		padding: 4vh 20vw 0vh 20vw;
+		color:lightgrey;
 		text-align: center;
-		font-size:25px;
+		font-size:15px;
 	}
 
 	footer #cgu a{
 		padding: 0vh 30vw 2vh 30vw;
-		color:white;
+		color:lightgrey;
 		text-align: center;
-		font-size: 25px;
+		font-size: 15px;
 	}
 	
 }
@@ -539,7 +541,7 @@ footer #cgu a:hover{
 
 	#section1{
 	min-height: 110vh;
-	background-image: url("../ressources/bannière header web.png"); 
+	background-image: url("../ressources/bannière-header-très-grande.jpg"); 
  	background-repeat: no-repeat;
   	background-size: 100% 100%;
 	}
@@ -601,14 +603,9 @@ footer #cgu a:hover{
 	}
 
 	footer{
-		height: 80vh;
 		padding-top:6vh;
-		padding-bottom: 25vh;
 	}
 
-	footer #div-container{
-		max-height:55vh;
-	}
 
 	footer h1{
 		display:inline;
@@ -628,12 +625,12 @@ footer #cgu a:hover{
 
 	footer form{
 		margin-top: 4vh;
-		padding-left:12vw;
+		padding-left:7.5vw;
 	}
 
 	form input[placeholder]{
-	display: block;
-	padding:15px 15px;	
+		display: block;
+		padding:15px 15px;	
 	}
 
 	form #input1{
@@ -665,17 +662,21 @@ footer #cgu a:hover{
 	}
 
 	footer #copyright{
-		margin: 8vh 30vw 2vh 30vw;
-		color:white;
+		padding: 5vh 20vw 0vh 20vw;
+		color:lightgrey;
 		text-align: center;
-		font-size:25px;
+		font-size:14px;
+		margin-bottom: 0;
+		margin-top: 0;
 	}
 
 	footer #cgu a{
-		margin: 0vh 30vw 2vh 30vw;
-		color:white;
+		padding: 0vh 30vw 0vh 30vw;
+		color:lightgrey;
 		text-align: center;
-		font-size: 25px;
+		font-size: 14px;
+		margin-bottom: 0;
+		margin-top: 0;
 	}
 	
 }
@@ -711,7 +712,7 @@ footer #cgu a:hover{
 
 	#section1{
 	min-height: 110vh;
-	background-image: url("../ressources/bannière header web.png"); 
+	background-image: url("../ressources/bannière-header-très-grande.jpg"); 
  	background-repeat: no-repeat;
   	background-size: 100% 100%;
 	}
@@ -788,13 +789,13 @@ footer #cgu a:hover{
 	}
 
 	footer form{
-		margin-top: 4vh;
-		padding-left:12vw;
+		padding-top: 4vh;
+		padding-left:7.5vw;
 	}
 
 	form input[placeholder]{
-	display: block;
-	padding:15px 15px;	
+		display: block;
+		padding:15px 15px;	
 	}
 
 	form #input1{
@@ -825,17 +826,17 @@ footer #cgu a:hover{
 	}
 
 	footer #copyright{
-		padding: 6vh 30vw 2vh 30vw;
-		color:white;
+		padding: 6vh 20vw 0vh 20vw;
+		color:lightgrey;
 		text-align: center;
-		font-size: 20px;
+		font-size: 14px;
 	}
 
 	footer #cgu a{
-		margin: 0vh 30vw 2vh 30vw;
-		color:white;
+		margin: 0vh 20vw 2vh 20vw;
+		color:lightgrey;
 		text-align: center;
-		font-size: 20px;
+		font-size: 14px;
 	}
 	
 }
@@ -869,7 +870,7 @@ footer #cgu a:hover{
 
 	#section1{
 	min-height: 110vh;
-	background-image: url("../ressources/bannière header web.png"); 
+	background-image: url("../ressources/bannière-header-très-grande.jpg"); 
  	background-repeat: no-repeat;
   	background-size: 100%;
 	}
@@ -1028,7 +1029,7 @@ footer #cgu a:hover{
 
 	#section1{
 		min-height: 78vh;
-		background-image: url("../ressources/bannière header web.png"); 
+		background-image: url("../ressources/bannière-header-très-grande.jpg"); 
 	 	background-repeat: no-repeat;
 	  	background-size: 100% 75%;
 	}
@@ -1187,9 +1188,9 @@ footer #cgu a:hover{
 
 	#section1{
 		min-height: 78vh;
-		background-image: url("../ressources/bannière header web.png"); 
+		background-image: url("../ressources/bannière-header-très-grande.jpg"); 
 	 	background-repeat: no-repeat;
-	  	background-size: 100% 75%;
+	  	background-size: 100% 100%;
 	}
 
 	#section1-buttons{
@@ -1227,6 +1228,9 @@ footer #cgu a:hover{
 	  	z-index: 1;
   	}
 
+	#section2 #s2-row{
+		padding-top: 10vh;
+	}
 
 	#section2 #first-txt{
 		margin-top: 0;
@@ -1299,17 +1303,18 @@ footer #cgu a:hover{
 	}
 
 	footer #copyright{
-		padding: 10vh 20vw 2vh 20vw;
-		color:white;
+		padding: 10vh 20vw 0vh 20vw;
+		color:lightgrey;
 		text-align: center;
-		font-size: 20px;
+		font-size: 12px;
+		margin-bottom: 0;
 	}
 
 	footer #cgu a{
 		padding: 0vh 30vw 2vh 30vw;
-		color:white;
+		color:lightgrey;
 		text-align: center;
-		font-size: 20px;
+		font-size: 12px;
 	}
 }
 
