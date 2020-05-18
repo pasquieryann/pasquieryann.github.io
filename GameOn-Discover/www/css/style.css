@@ -365,7 +365,7 @@ footer #cgu a:hover{
 
 	#header-rs a div{
 	width:5vw;
-	background-size: 80%;
+	background-size: 90%;
 	}
 
 
@@ -383,7 +383,7 @@ footer #cgu a:hover{
 	min-height: 120vh;
 	background-image: url("../ressources/bannière-header-très-grande.jpg"); 
  	background-repeat: no-repeat;
-  	background-size: 100% 100%;
+  	background-size: 100% 80%;
 	}
 
 	#section1-buttons{
@@ -407,22 +407,22 @@ footer #cgu a:hover{
 
 	#section2 h1{
 		font-size:45px;
-		margin-bottom: 4vh;
+		padding-bottom: 3vh;
 
 	}
 
 	#section2{
-		margin-top:-110vh;
+		margin-top:-100vh;
 		min-height: 75vh;
 		background-image: url("../ressources/vague blanche transition web.png");
 	 	background-repeat: no-repeat;
 	  	background-size: 100%;
-	  	margin-bottom: 15vh;
+	  	padding-bottom: 10vh;
 	  	z-index: 1;
   	}
 
 	#section2 #s2-row{
-		padding-top: 100vh;
+		padding-top: 40vh;
 	}
 
 	#section2 #first-txt{
@@ -430,7 +430,6 @@ footer #cgu a:hover{
 	}
 
 	#section2 img{
-		margin-top: 5vh;
 		width:20vw;
 	}
 
@@ -869,14 +868,13 @@ footer #cgu a:hover{
 	}
 
 	#section1{
-	min-height: 110vh;
 	background-image: url("../ressources/bannière-header-très-grande.jpg"); 
  	background-repeat: no-repeat;
   	background-size: 100% 100%;
 	}
 
 	#section1-buttons{
-		margin-top:5vh;
+		margin-top:0vh;
 
 	}
 
@@ -885,7 +883,7 @@ footer #cgu a:hover{
 	}
 
 	#section1-buttons button{
-		margin-bottom: 3vh;
+		margin-bottom: 2vh;
 		padding: 30px 5px;
 		border-radius: 60px;
 	}
@@ -900,17 +898,17 @@ footer #cgu a:hover{
 	}
 
 	#section2{
-	margin-top:-85vh;
-
-	background-image: url("../ressources/vague blanche transition web.png");
- 	background-repeat: no-repeat;
-  	background-size: 100% 100%;
-  	padding-bottom: 15vh;
-  	z-index: 1;
+	    margin-top: -50vh;
+	    min-height: 75vh;
+	    background-image:  url("../ressources/vague blanche transition web.png");
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	    padding-bottom: 5vh;
+	    z-index: 1;
   	}
 
 	#section2 #s2-row{
-		padding-top: 75vh;
+		padding-top: 35vh;
 	}
 
 	#section2 #first-txt{
