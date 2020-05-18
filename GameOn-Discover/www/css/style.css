@@ -327,21 +327,16 @@ footer #copyright{
 	text-align: center;
 	font-size: 12px;
 	margin-bottom: 0;
+	padding-bottom:5vh;
 }
 
-footer #cgu {
-	text-align: center;
-	padding-bottom: 4vh;
-	margin-bottom: 0;
-}
 
-footer #cgu a{
+footer a{
 	color:lightgrey;
-	font-size: 12px;
 	text-decoration: underline;
 }
 
-footer #cgu a:hover{
+footer a:hover{
 	text-decoration: none;
 }
 
@@ -387,7 +382,7 @@ footer #cgu a:hover{
 	}
 
 	#section1-buttons{
-		margin-top:8vh;
+		padding-top:6vh;
 
 	}
 
@@ -497,18 +492,13 @@ footer #cgu a:hover{
 	}
 
 	footer #copyright{
-		padding: 4vh 20vw 0vh 20vw;
+		padding: 4vh 0vw 4vh 0vw;
 		color:lightgrey;
 		text-align: center;
 		font-size:15px;
 	}
 
-	footer #cgu a{
-		padding: 0vh 30vw 2vh 30vw;
-		color:lightgrey;
-		text-align: center;
-		font-size: 15px;
-	}
+	
 	
 }
 
@@ -661,19 +651,10 @@ footer #cgu a:hover{
 	}
 
 	footer #copyright{
-		padding: 5vh 20vw 0vh 20vw;
+		padding: 5vh 0vw 4vh 0vw;
 		color:lightgrey;
 		text-align: center;
 		font-size:14px;
-		margin-bottom: 0;
-		margin-top: 0;
-	}
-
-	footer #cgu a{
-		padding: 0vh 30vw 0vh 30vw;
-		color:lightgrey;
-		text-align: center;
-		font-size: 14px;
 		margin-bottom: 0;
 		margin-top: 0;
 	}
@@ -825,18 +806,12 @@ footer #cgu a:hover{
 	}
 
 	footer #copyright{
-		padding: 6vh 20vw 0vh 20vw;
+		padding: 6vh 0vw 4vh 0vw;
 		color:lightgrey;
 		text-align: center;
 		font-size: 14px;
 	}
 
-	footer #cgu a{
-		margin: 0vh 20vw 2vh 20vw;
-		color:lightgrey;
-		text-align: center;
-		font-size: 14px;
-	}
 	
 }
 
@@ -983,18 +958,12 @@ footer #cgu a:hover{
 	}
 
 	footer #copyright{
-		padding: 6vh 20vw 0vh 20vw;
+		padding: 6vh 0vw 4vh 0vw;
 		color:lightgrey;
 		text-align: center;
 		font-size: 14px;
 	}
 
-	footer #cgu a{
-		margin: 0vh 20vw 2vh 20vw;
-		color:lightgrey;
-		text-align: center;
-		font-size: 14px;
-	}
 
 }
 
@@ -1143,20 +1112,14 @@ footer #cgu a:hover{
 		}
 
 	footer #copyright{
-		padding: 6vh 20vw 2vh 20vw;
-		color:white;
+		padding: 6vh 20vw 4vh 20vw;
+		color:lightgrey;
 		text-align: center;
-		font-size: 20px;
+		font-size: 14px;
 		margin:0;
 	}
 
-	footer #cgu a{
-		padding: 0vh 30vw 2vh 30vw;
-		color:white;
-		text-align: center;
-		font-size: 20px;
-		margin:0;
-	}
+
 }
 /* 
   ##Device = Tablets, Ipads (landscape)
@@ -1303,19 +1266,13 @@ footer #cgu a:hover{
 	}
 
 	footer #copyright{
-		padding: 10vh 20vw 0vh 20vw;
+		padding: 10vh 0vw 4vh 0vw;
 		color:lightgrey;
 		text-align: center;
 		font-size: 12px;
 		margin-bottom: 0;
 	}
 
-	footer #cgu a{
-		padding: 0vh 30vw 2vh 30vw;
-		color:lightgrey;
-		text-align: center;
-		font-size: 12px;
-	}
 }
 
 
