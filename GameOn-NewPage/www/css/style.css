@@ -86,7 +86,41 @@ button:focus{
 	  color: #D4026D;	 
 }
 
+
 .greenbutton{
+	  background-color: #25B2A9;
+	  border-color: #25B2A9;
+	  border-radius:15px;
+	  color: white;
+	  text-align: center;
+	  text-decoration: none;
+	  cursor: pointer;
+	  transition: 0.5s;
+}
+
+.greenbutton:hover{
+	  background-color: #ffffffb2;
+	  color: #25B2A9;	 
+}
+
+.greybutton{
+	  background-color: #5A6080;
+	  border-color: #5A6080;
+	  border-radius:15px;
+	  color: white;
+	  text-align: center;
+	  text-decoration: none;
+	  cursor: pointer;
+	  transition: 0.5s;
+}
+
+.greybutton:hover{
+	  background-color: #ffffffb2;
+	  color: #5A6080;	 
+}
+
+
+.greenbutton-outter{
 	  background-color: #ffffff00;
 	  border-color: #25B2A9;
 	  border-radius:15px;
@@ -97,7 +131,7 @@ button:focus{
 	  transition: 0.5s;
 }
 
-.greenbutton:hover{
+.greenbutton-outter:hover{
 	  background-color: #25B2A9;
 	  color: white;	 
 }
@@ -142,6 +176,10 @@ nav a{
 	padding-left: 20vw;
 }
 
+#all-in-on img{
+	width:50%;
+}
+
 
 #features{
 	margin-top:20vh;
@@ -153,9 +191,16 @@ nav a{
 	margin-bottom: 10vh;
 }
 
-#images-features{
+#features #images-features{
 	margin:0 15vw;
 }
+
+#features img{
+	height:25vh;
+}
+
+
+
 
 #marketplace{
 	margin-top:20vh;
@@ -174,17 +219,29 @@ nav a{
 	margin-bottom: 4vh;
 }
 
+
+#marketplace img{
+	height:50vh;
+	margin-bottom: 5vh;
+	padding-left: 10vw;
+}
+
 #marketplace a:hover{
 	text-decoration: none;
 }
 
 
-#seller-button{	  
-	margin-left: 10vw;
+#marketplace #seller-button{	  
+	margin-left:5vw;
+	width: 50%;
 }
 
+
+
+
+
 #testimonials{
-	margin-top:10vh;
+	margin-top:20vh;
 }
 
 #testimonials a{
@@ -198,8 +255,89 @@ nav a{
 }
 
 #testimonials svg{
-
 	filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.2));
+}
+
+
+
+
+
+#fees{
+	margin-top:30vh;
+}
+
+#fees h2{
+	color:#25B2A9;
+	padding-left: 18.5vw;
+	margin-bottom: 10vh;
+}
+
+#fees .card{
+	width:18vw;
+	border-radius: 20px;
+	filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.2));
+	height: 77vh;
+}
+
+#fees svg{
+	width:18vw;
+	height:25vh;
+}
+
+#fees h3{
+	font-family:Roboto-Bold;
+	color:white;
+	margin:0 2vw;
+}
+
+#fees .card-top{
+	height:40vh;
+}
+
+#fees #card-top-1{
+    background-image: url("../ressources/campaign-bg.png"); 
+ 	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+}
+
+
+#fees #card-top-2{
+    background-image: url("../ressources/campaign-bg.png"); 
+ 	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+}
+
+#fees #card-top-3{
+    background-image: url("../ressources/campaign-bg.png"); 
+ 	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+}
+
+
+#fees .text-part{
+	margin:0 5px;
+	height: 20vh;
+}
+
+#fees a{
+	text-decoration: none;
+}
+
+#fees button{
+	margin-bottom: 2vh;
+	width: 80%;
+	border-radius: 25px;
+}
+
+#fees .star{
+	font-size: 12px;
+	margin-bottom: 0;
+}
+
+
+
+#learn-more{
+	margin-top: 20vh;
 }
 
 #learn-more h2{
@@ -213,8 +351,10 @@ nav a{
 }
 
 #learn-more button{
+	font-size:30px;
 	margin-bottom:5vh;
-	width:30%;
+	width:35%;
+	padding:3vh 0;
 }
 
 
