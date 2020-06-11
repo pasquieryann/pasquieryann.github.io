@@ -1,39 +1,13 @@
-$(document).ready(function(){   
+$(document).ready(function() {
+  
 
-            var menu = jQuery("#menu"),
-                offset = 40,
-                menuHeight = menu.outerHeight()+offset,
-                // All list items
-                menuItems =  menu.find('a[href*="#"]'),
-                // Anchors corresponding to menu items
-                scrollItems = menuItems.map(function(){
-                  var href = jQuery(this).attr("href"),
-                  id = href.substring(href.indexOf('#')),
-                  item = jQuery(id);
-                  //console.log(item)
-                  if (item.length) { return item; }
-                });
+  $(window).scroll(function() {
+    var scrollDistance = $(window).scrollTop();
 
-
-            // Bind to scroll
-            jQuery(window).scroll(function(){
-               // Get container scroll position
-               var fromTop = jQuery(this).scrollTop()+menuHeight;
-
-               // Get id of current scroll item
-               var cur = scrollItems.map(function(){
-                 if (jQuery(this).offset().top < fromTop)
-                   return this;
-               });
-
-               // Get the id of the current element
-               cur = cur[cur.length-1];
-               var id = cur && cur.length ? cur[0].id : "";               
-
-               menuItems.parent().removeClass("active");
-               if(id){
-                    menuItems.parent().end().filter("[href*='#"+id+"']").parent().addClass("active");
-               }
-
-            })
-        })
+    $('.page-section').each(function(i) {
+      if ($(this).position().top <= scrollDistance) {
+        $('#menu a.active').removeClass('active');
+        $('#menu a').eq(i).addClass('active');
+      }
+    });
+  }).scroll();

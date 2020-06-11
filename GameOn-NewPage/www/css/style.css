@@ -316,23 +316,23 @@ nav a.active:after{
 
 
 
-#learn-more{
+#learn_more{
 	margin-top:15vh;
 	padding-top: 20vh;
 	padding-bottom: 60vh;
 }
 
-#learn-more h2{
+#learn_more h2{
 	color:#D6006D;
 	padding-left: 18.5vw;
 	padding-bottom: 5vh;
 }
 
-#learn-more a:hover{
+#learn_more a:hover{
 	text-decoration: none;
 }
 
-#learn-more button{
+#learn_more button{
 	font-size:30px;
 	margin-bottom:5vh;
 	width:35%;
