@@ -258,7 +258,7 @@ nav a.active:after{
 	width:18vw;
 	border-radius: 20px;
 	filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.2));
-	height: 77vh;
+	height: 100vh;
 }
 
 #fees svg{
@@ -297,7 +297,7 @@ nav a.active:after{
 
 #fees .text-part{
 	margin:0 5px;
-	height: 20vh;
+	height: 35vh;
 }
 
 #fees a{
