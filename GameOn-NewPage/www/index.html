@@ -7,18 +7,27 @@
 	<link rel="stylesheet" href="./lib/bootstrap-4.3.1/css/bootstrap.css">
 	<link href="./css/style.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
-<body data-spy="scroll" data-target="#menu">
+<body data-spy="scroll" data-target="#menu" data-offset="300">
 
 	<header id="main-header" class="fixed-top">
 		<h2 class="text-center">ABOUT GAME ON</h2>
-		<nav id="menu" class="nav justify-content-around">
-			<a id="nav1" class="nav-link active" href="#all-in-on">ALL-IN-ON SOLUTION</a>
-			<a id="nav2" class="nav-link" href="#features">FEATURES</a>
-			<a id="nav3" class="nav-link" href="#marketplace">MARKETPLACE</a>
-			<a id="nav4" class="nav-link" href="#testimonials">TESTIMONIALS</a>
-			<a id="nav5" class="nav-link" href="#fees">FEES</a>
-			<a id="nav6" class="nav-link" href="#learn_more">LEARN MORE</a>
+		<nav id="menu" class="nav navbar navbar-expand-lg">
+			<div class="navbar-brand" href="#"></div>
+			<button id="burger" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="line"></span> 
+		        <span class="line"></span> 
+		        <span class="line"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-around" id="navbarToggler">
+				<a id="nav1" class="nav-link active" href="#all-in-on">ALL-IN-ON SOLUTION</a>
+				<a id="nav2" class="nav-link" href="#features">FEATURES</a>
+				<a id="nav3" class="nav-link" href="#marketplace">MARKETPLACE</a>
+				<a id="nav4" class="nav-link" href="#testimonials">TESTIMONIALS</a>
+				<a id="nav5" class="nav-link" href="#fees">FEES</a>
+				<a id="nav6" class="nav-link" href="#learn_more">LEARN MORE</a>
+			</div>
 		</nav>
 	</header>
 
@@ -30,11 +39,11 @@
 			<section id="all-in-on">
 				<div class="row">
 					<div class="col-12 col-md-6 div-left">
-						<h2 class="mb-5"><span style="font-size: 40px;" class="black">AN ALL-IN-ONE</span><br> solution for tabletop games</h2>
+						<h2 class="mb-5"><span class="black">AN ALL-IN-ONE</span><br> solution for tabletop games</h2>
 						<p>Game On Tabletop is <span style="font-size: 20px;" class="bold">THE N°1</span> crowdfunding platform dedicated to every tabletop game related products!</p>
 						<p>Create a campaign <span class="bold">tailored to you needs</span>, stay in touch with a team of crowdfunding <span class="bold">experts</span> and reach a <span class="bold">community of passionate backers!</span></p>
 					</div>
-					<div class="col-12 col-md-6">
+					<div id="octopus" class="col-12 col-md-6">
 						<img src="ressources/octopus.png">
 					</div>
 
@@ -45,7 +54,7 @@
 			<section id="features">		
 
 				<div class="row">
-					<div class="col-12"><h2><span style="font-size: 40px;" class="black">MANY GREAT FEATURES</span><br> available on Game On</h2></div>
+					<div class="col-12"><h2><span class="black">MANY GREAT FEATURES</span><br> available on Game On</h2></div>
 				</div>
 
 
@@ -109,19 +118,19 @@
 			<section id="marketplace">
 				<div class="row">
 					<div class="col-12 col-md-6 div-left">
-						<h2 class="mb-5"><span style="font-size: 40px;" class="black">A NEW MARKETPLACE</span><br> dedicated to the tabletop industry</h2>
+						<h2 class="mb-5"><span class="black">A NEW MARKETPLACE</span><br> dedicated to the tabletop industry</h2>
 
-						<p>You don't have your own online store or you don't get enough eyes on your products? <span style="font-size: 25px;" class="bold">Our Tabletop Marketplace is made for you!</span></p>
+						<p>You don't have your own online store or you don't get enough eyes on your products? <span class="bold bigger">Our Tabletop Marketplace is made for you!</span></p>
 						<p>Directly available on our crowdfunding platform, this after sales solution allows you to sell your already produced games and pre-orders to our broad audience of Tabletop Enthusiasts.</p>
-						<p>A tool designed for publishers, retailers and <span style="font-size: 25px;" class="bold">any other actor of the Tablelop Industry!</span></p>
+						<p>A tool designed for publishers, retailers and <span class="bold bigger">any other actor of the Tablelop Industry!</span></p>
 
 					</div>
 					<div class="col-12 col-md-6">
 						<div class="row">
-							<div class="col-12">
+							<div class="col-12 div-center">
 								<img src="ressources/games.png">
 							</div>
-							<div class="col-12">
+							<div class="col-12 div-center">
 								<a href=""><button id="seller-button" class="redbutton">BECOME A SELLER</button></a>
 							</div>
 						</div>
@@ -132,81 +141,97 @@
 			</section>
 
 
-
 			<section id="testimonials">		
 
 				<div class="row">
 					<div class="col-12">
-						<h2><span style="font-size: 40px;" class="black">WHAT INVENTORS SAY</span><br> about us</h2>
+						<h2><span class="black">WHAT INVENTORS SAY</span><br> about us</h2>
 					</div>
 				</div>
 
+
+				<!-- TRUE CAROUSEL -->
+
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img class="d-block w-100" src="..." alt="First slide">
+				      <p> ierhugjperiug ieroijpgjzei oireoui</p>
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="..." alt="Second slide">
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="..." alt="Third slide">
+				    </div>
+				  </div>
+
+				</div>
 
 
 				<div id="carousel" class="carousel slide" data-ride="carousel">
 
-					
-
 
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<div class="row justify-content-center">
+							
 
 								<div class="carousel-item">
-									<div class="d-block w-100">
+									<div class="d-block" alt="First slide">
 										<div class="col-12 col-md-3">
 											<img src="ressources/happy.png">
 											<p><span class="bold">Marc </span><br>Campaign Coins</p>
 										</div>
-										<div class="col-12 col-md-6">
+										<div class="col-12 col-md-9">
 											<p class="bold">GAME ON HAS BEEN GREAT TO US.</p>
 											<p>"It's a friendly site which has introduced us to many new backers, and the Game On team and tools are fantastic to work with."</p>
 										</div>
 									</div>
-								</div>
-								<div class="carousel-item">
-									<img src="ressources/happy.png" class="d-block w-100" alt="...">
-								</div>
-								<div class="carousel-item">
-									<img src="..." class="d-block w-100" alt="...">
-								</div>
-								<div class="carousel-item">
-									<img src="..." class="d-block w-100" alt="...">
-								</div>
-								<div class="carousel-item">
-									<img src="..." class="d-block w-100" alt="...">
-								</div>
+									<!-- </div>
+								</div> -->
 							</div>
 						</div>
-						<div class="text-center">
-							<svg data-target="#carousel" data-slide-to="0" class="active" height="100" width="100">
-								<circle cx="50" cy="50" r="20" stroke="black" stroke-width="0" fill="white" />
-							</svg>
-
-							<svg data-target="#carousel" data-slide-to="1" height="100" width="100">
-								<circle cx="50" cy="50" r="20" stroke="black" stroke-width="0" fill="white" />
-							</svg>
 
 
-							<svg data-target="#carousel" data-slide-to="2" height="100" width="100">
-								<circle cx="50" cy="50" r="20" stroke="black" stroke-width="0" fill="white" />
-							</svg>
-
-
-							<svg data-target="#carousel" data-slide-to="3" height="100" width="100">
-								<circle cx="50" cy="50" r="20" stroke="black" stroke-width="0" fill="white" />
-							</svg>
-
-
-							<svg data-target="#carousel" data-slide-to="4" height="100" width="100">
-								<circle cx="50" cy="50" r="20" stroke="black" stroke-width="0" fill="white" />
-							</svg>
-
-
-						</div>
 					</div>
 
+					<div class="text-center">
+
+						<svg data-target="#carousel" data-slide-to="0" class="active" height="100" width="100">
+							<circle cx="50" cy="50" r="20" stroke="black" stroke-width="0" fill="white" />
+						</svg>
+
+						<svg data-target="#carousel" data-slide-to="1" height="100" width="100">
+							<circle cx="50" cy="50" r="20" stroke="black" stroke-width="0" fill="white" />
+						</svg>
+
+
+						<svg data-target="#carousel" data-slide-to="2" height="100" width="100">
+							<circle cx="50" cy="50" r="20" stroke="black" stroke-width="0" fill="white" />
+						</svg>
+
+
+						<svg data-target="#carousel" data-slide-to="3" height="100" width="100">
+							<circle cx="50" cy="50" r="20" stroke="black" stroke-width="0" fill="white" />
+						</svg>
+
+
+						<svg data-target="#carousel" data-slide-to="4" height="100" width="100">
+							<circle cx="50" cy="50" r="20" stroke="black" stroke-width="0" fill="white" />
+						</svg>
+
+
+					</div>
 				</div>
+
+
+
+
 
 			</section>
 
@@ -220,7 +245,7 @@
 
 			<div class="row">
 				<div class="col-12">
-					<h2><span style="font-size: 40px;" class="black">THE CHEAPEST SOLUTION</span><br> for tabletop crowdfunding and marketplace</h2>
+					<h2><span class="black">THE CHEAPEST SOLUTION</span><br> for tabletop crowdfunding and marketplace</h2>
 				</div>
 			</div>
 
@@ -229,17 +254,30 @@
 			<div class="row justify-content-center">
 				<div class="col-12 col-md-3">
 					<div class="card center">
+
 						<div id="card-top-1" class="card-top">
 							<svg>
-								<circle cx="65%" cy="50%" r="25%" stroke="black" stroke-width="0" fill="white" />
+								<circle cx="50%" cy="50%" r="30%" stroke="black" stroke-width="0" fill="white" />
 							</svg>
+							
+							<p><span class="bold" style="color:#25B2A9; font-size: 70px;">5</span><span class="bold" style="color:#25B2A9; font-size: 50px;">%</span><br>commission*</p>
+
 							
 						</div>
 						<div class="card-body">
 							<div class="text-part">
 								<h3 class="text-center">CROWNDFUNDING CAMPAIGN</h3>
-								<p><span class="bold">PLEDGE MANAGEMENT INCLUDED!</span></p>
-								<p>No comission charged on shipping costs of additional sales!</p>
+								<p class="row"><span class="col-9 bold">PLEDGE MANAGEMENT INCLUDED!</span>
+
+									<svg class="col-3 green_tick" height="20" viewBox="0 0 515.556 515.556" width="20"><path d="m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z"/></svg>
+
+								</p>
+								
+
+								<p class="row"><span class="col-9">No comission charged on shipping costs of additional sales!</span>
+									<svg class="col-3 green_tick" height="20" viewBox="0 0 515.556 515.556" width="20"><path d="m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z"/></svg>
+								</p>
+
 							</div>
 
 							<a href=""><button class="greenbutton center">LAUNCH YOUR CAMPAIGN</button></a>
@@ -254,81 +292,91 @@
 					<div class="card center">
 						<div id="card-top-2" class="card-top">
 							<svg>
-								<circle cx="35%" cy="43%" r="28%" stroke="black" stroke-width="0" fill="white" />
-								<circle cx="70%" cy="65%" r="22%" stroke="black" stroke-width="0" fill="white" />
+								<circle cx="35%" cy="43%" r="30%" stroke="black" stroke-width="0" fill="white" />
+								<circle cx="70%" cy="65%" r="25%" stroke="black" stroke-width="0" fill="white" />
 							</svg>
-							
+
+							<p id="p1"><span class="bold" style="color:#D4026D; font-size: 70px;">2</span><span style="color:#D4026D; font-size: 30px;">%</span><br>commission*<br><span class="bold">on import<br>amount</span></p>
+
+							<p id="p2"><span class="bold" style="color:#D4026D; font-size: 60px;">5</span><span style="color:#D4026D; font-size: 30px;">%</span> commission* <span class="bold">on additional sales</span></p>
+
 						</div>
 						<div class="card-body">
 							<div class="text-part">
 								<h3 class="text-center">PLEDGE MANAGMENT</h3>
-								<p><span class="bold">LATE PLEDGE INCLUDED!</span></p>
-								<p>No comission charged on shipping costs.</p>
+								<p class="row"><span class="col-9 bold">LATE PLEDGE INCLUDED!</span>
+									<svg class="col-3 red_tick" height="20" viewBox="0 0 515.556 515.556" width="20"><path d="m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z"/></svg>
+								</p>
+								<p class="row"><pan class="col-9">No comission charged on shipping costs.</pan>
+									<svg class="col-3 red_tick" height="20" viewBox="0 0 515.556 515.556" width="20"><path d="m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z"/></svg></p>
+								</div>
+
+								<a href=""><button class="redbutton center" style="width: 95%;">LAUNCH YOUR PLEDGE MANAGMENT</button></a>
+
+								<p class="star">*Additional payment transaction fees may apply.</p>
 							</div>
-
-							<a href=""><button class="redbutton center">LAUNCH YOUR PLEDGE MANAGMENT</button></a>
-
-							<p class="star">*Additional payment transaction fees may apply.</p>
 						</div>
 					</div>
-				</div>
 
 
-				<div class="col-12 col-md-3">
-					<div class="card center">
-						<div id="card-top-3" class="card-top">
-							<svg>
-								<circle cx="65%" cy="50%" r="25%" stroke="black" stroke-width="0" fill="white" />
-							</svg>
-							
-						</div>
-						<div class="card-body">
-							<div class="text-part">
-								<h3 class="text-center">TABLETOP MARKETPLACE</h3>
-								<p><span class="bold">CONTACT US TO GET YOUR QUOTATION</span> of the comission* on sales placed on your Marketplace.</p>
-								<p>Sell to a broader audience of gamers.</p>
+					<div class="col-12 col-md-3">
+						<div class="card center">
+							<div id="card-top-3" class="card-top">
+								<svg>
+									<circle cx="55%" cy="50%" r="32%" stroke="black" stroke-width="0" fill="white" />
+								</svg>
+
+								<p><span class="bold" style="color:#5A6080; font-size: 30px; line-height: 35px;">PRICE ON QUOTATION</span><br><span class="bold">Contact us!</span></p>
+
 							</div>
+							<div class="card-body">
+								<div class="text-part">
+									<h3 class="text-center">TABLETOP MARKETPLACE</h3>
+									<p class="row"><span class="col-12"><span class="bold">CONTACT US TO GET YOUR QUOTATION</span> of the comission* on sales placed on your Marketplace.</span></p>
+									<p class="row"><span class="col-9">Sell to a broader audience of gamers.</span>
+										<svg class="col-3 grey_tick" height="20" viewBox="0 0 515.556 515.556" width="20"><path d="m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z"/></svg>
+									</p>
+								</div>
 
-							<a href=""><button class="greybutton center">LAUNCH YOUR MARKETPLACE</button></a>
+								<a href=""><button class="greybutton center">LAUNCH YOUR MARKETPLACE</button></a>
 
-							<p class="star">*Additional payment transaction fees may apply.</p>
+								<p class="star">*Additional payment transaction fees may apply.</p>
+							</div>
 						</div>
 					</div>
+
+
 				</div>
 
-
-			</div>
-
-		</section>
-
-	</div>
-
-	<div id="bg-3">
-		<div class="container-fluid">
-
-
-			<section id="learn_more">
-				<h2 class="mb-5"><span style="font-size: 40px;" class="black">WANT TO LEARN MORE</span><br>  about what we can acheive together?</h2>
-
-				<a href=""><button class="greenbutton-outter center">CONTACT A PROJECT WIZARD</button></a>
-				<a href=""><button class="redbutton center">LAUNCH YOUR PROJECT</button></a>
 			</section>
 
 		</div>
-	</div>
+
+		<div id="bg-3">
+			<div class="container-fluid">
+
+
+				<section id="learn_more">
+					<h2 class="mb-5"><span class="black">WANT TO LEARN MORE</span><br>  about what we can acheive together?</h2>
+
+					<a href=""><button class="greenbutton-outter center">CONTACT A PROJECT WIZARD</button></a>
+					<a href=""><button class="redbutton center">LAUNCH YOUR PROJECT</button></a>
+				</section>
+
+			</div>
+		</div>
 
 
 
 
 
-	<footer>
+		<footer>
 
-	</footer>
-	<script src="./lib/jquery/jquery-3.4.1.js"></script>
-	<script src="./lib/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
-	<script src="./js/scroll_menu.js"></script>	
-	<script src="./js/scrolltoanimation.js"></script>
-	<script src="./js/active.js"></script>
-	
-</body>
-</html>
+		</footer>
+		<script src="./lib/jquery/jquery-3.4.1.js"></script>
+		<script src="./lib/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
+		<script src="./js/scrolltoanimation.js"></script>
+		<script src="./js/active.js"></script>
+
+	</body>
+	</html>

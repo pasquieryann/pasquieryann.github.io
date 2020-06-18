@@ -66,7 +66,6 @@ header{
 	width:100%;
 	background-color: white;
 	font-family: Roboto-Bold;
-
 	padding-top: 2vh;
 	padding-bottom: 2vh;
 }
@@ -251,58 +250,160 @@ nav a.active:after{
 #fees h2{
 	color:#25B2A9;
 	padding-left: 18.5vw;
-	margin-bottom: 10vh;
+	margin-bottom: 20vh;
 }
 
 #fees .card{
-	width:18vw;
-	border-radius: 20px;
+	width:20vw;
+	border-radius: 25px;
 	filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.2));
-	height: 100vh;
+	height: 108vh;
 }
 
 #fees svg{
-	width:18vw;
+	width:20vw;
 	height:25vh;
+	filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.2));
 }
 
 #fees h3{
 	font-family:Roboto-Bold;
-	margin:2vh 1vw;
+	font-size: 32px;
+	margin:1vh 1vw 4vh 1vw;
+}
+
+#fees p{
+	margin: 10px 10px 30px 0px;
+	padding-right: 0;
 }
 
 #fees .card-top{
 	height:40vh;
 }
 
+#fees .card-top p{
+	line-height: 25px;
+}
+
 #fees #card-top-1{
-    background-image: url("../ressources/campaign-bg.png"); 
+    background-image: url("../ressources/campaign_bg.png"); 
  	background-repeat: no-repeat;
   	background-size: 100% 100%;
 }
 
 
 #fees #card-top-2{
-    background-image: url("../ressources/campaign-bg.png"); 
+    background-image: url("../ressources/late_pledge_bg.png"); 
  	background-repeat: no-repeat;
   	background-size: 100% 100%;
 }
 
 #fees #card-top-3{
-    background-image: url("../ressources/campaign-bg.png"); 
+    background-image: url("../ressources/marketplace_bg.png"); 
  	background-repeat: no-repeat;
   	background-size: 100% 100%;
 }
 
 
+
+#fees #card-top-1{
+	position: relative;
+}
+
+#fees #card-top-1 svg{
+	position: absolute;
+	top: -120px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#fees #card-top-1 p{
+	margin:0;
+	text-align: center;
+	position: absolute;
+	top: -40px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+#fees #card-top-2 svg{
+	position: absolute;
+	top: -120px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+
+#fees #card-top-2 #p1{
+	margin: 0;
+	text-align: center;
+	position: absolute;
+	top: -80px;
+	left: 35%;
+	transform: translateX(-50%);
+}
+
+
+#fees #card-top-2 #p2{
+	margin: 0;
+	text-align: center;
+	position: absolute;
+	top:-30px;
+	left: 70%;
+	transform: translateX(-50%);
+	font-size: 17px;
+}
+
+
+
+#fees #card-top-3 svg{
+	position: absolute;
+	top: -120px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#fees #card-top-3 p{
+	margin:0;
+	text-align: center;
+	position: absolute;
+	top: -55px;
+	left: 55%;
+	transform: translateX(-50%);
+}
+
+
+
 #fees .text-part{
 	margin:0 5px;
-	height: 35vh;
+	height: 45vh;
 }
 
 #fees a{
 	text-decoration: none;
 }
+
+
+#fees .green_tick{
+	width:20%;
+	height:auto;
+	fill:#25B2A9;
+}
+
+#fees .red_tick{
+	width:20%;
+	height:auto;
+	fill:#D4026D;
+}
+
+#fees .grey_tick{
+	width:20%;
+	height:auto;
+	fill:#5A6080;
+}
+
 
 #fees button{
 	margin-bottom: 2vh;
@@ -314,6 +415,7 @@ nav a.active:after{
 	font-size: 12px;
 	margin-bottom: 0;
 }
+
 
 
 
@@ -369,7 +471,7 @@ button:focus{
 .redbutton{
 	  background-color: #D4026D;
 	  border-color: #D4026D;
-	  border-radius:15px;
+	  border-radius:25px;
 	  color: white;
 	  text-align: center;
 	  text-decoration: none;
@@ -386,7 +488,7 @@ button:focus{
 .greenbutton{
 	  background-color: #25B2A9;
 	  border-color: #25B2A9;
-	  border-radius:15px;
+	  border-radius:25px;
 	  color: white;
 	  text-align: center;
 	  text-decoration: none;
@@ -402,7 +504,7 @@ button:focus{
 .greybutton{
 	  background-color: #5A6080;
 	  border-color: #5A6080;
-	  border-radius:15px;
+	  border-radius:25px;
 	  color: white;
 	  text-align: center;
 	  text-decoration: none;
@@ -419,7 +521,7 @@ button:focus{
 .greenbutton-outter{
 	  background-color: #ffffff00;
 	  border-color: #25B2A9;
-	  border-radius:15px;
+	  border-radius:25px;
 	  color: #25B2A9;
 	  text-align: center;
 	  text-decoration: none;
@@ -430,4 +532,299 @@ button:focus{
 .greenbutton-outter:hover{
 	  background-color: #25B2A9;
 	  color: white;	 
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	body{
+		font-size: 15px;
+		letter-spacing: 1px;
+	}
+
+	#bg-1{
+		background-image: none; 
+	}
+
+	#bg-2{
+		background-image: url("../ressources/bg2.png"); 
+	 	background-repeat: no-repeat;
+	  	background-size: 100% 100%; 
+	}
+
+	h2{
+		font-size: 20px;
+	}
+
+	header{
+		padding: 0;
+		background-color: transparent;
+		position: relative !important;
+	}
+
+	header h2{
+		padding-top:2vh;
+		background-color: white;
+		font-size: 30px;
+	}
+	
+	#menu{
+		position:fixed;
+		top:10vh;
+		right:0;
+	}
+
+	#burger{
+	    width: 50px;
+	    height: 40px;
+	    background-color: white;
+	    border:none;
+	    border-radius:15px;
+	}
+	#burger .line{
+	    width: 100%;
+	    float: left;
+	    margin: 2px 0;
+	    height: 2px;
+	    background-color: #D6006D;
+
+	
+	}
+
+	nav a:first-of-type{
+		margin-top: 3vh;
+
+	}
+
+	nav a{
+		font-size: 12px;
+		border: solid 1px white; 
+		border-radius: 25px;
+		background-color: white;
+		text-align: center;
+		margin-bottom: 1.5vh;
+		filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.2));
+	}
+	
+	nav a:after{
+		display: none; 
+	}
+	
+	#all-in-on{
+		margin-top:15vh;
+	}
+
+	#all-in-on .div-left {
+    	padding: 0 10vw;
+	}
+	
+	#all-in-on h2{
+		padding: 0 5vw;
+	}
+
+	#all-in-on h2 span{
+		font-size: 25px;
+	}
+
+	#all-in-on .div-left p{
+    	padding: 0 4vw;
+	}
+
+	#all-in-on #octopus{
+		margin-top:4vh;
+		text-align: center;
+		padding:0;
+	}
+
+	#features h2{
+		padding: 0 10vw;
+		margin-bottom: 3vh;
+	}
+
+	#features h2 span{
+		font-size: 25px;
+	}
+
+	#features img{
+		margin-top: 3vh;
+	}
+
+	#marketplace h2{
+		padding: 0 4vw;
+		margin-bottom: 3vh;
+	}
+
+	#marketplace h2 span{
+		font-size: 25px;
+	}
+
+	#marketplace .div-left{
+		padding: 0 10vw;
+	}
+
+	#marketplace .div-left p{
+    	padding: 0 4vw;
+	}
+
+	#marketplace .bigger{
+		font-size:18px;
+	}
+
+	#marketplace .div-center{
+		text-align: center;
+	}
+
+	#marketplace img{
+		height:35vh;
+		padding-left: 0;
+	}
+
+	#marketplace #seller-button {
+	    margin-left: 0vw;
+	    width: 70%;
+	    font-size: 13px;
+	}
+
+	#testimonials{
+		padding-bottom: 0;
+	}
+
+	#testimonials h2{
+		padding: 0 10vw;
+		margin-bottom: 3vh;
+	}
+
+	#testimonials h2 span{
+		font-size: 25px;
+	}
+
+	#testimonials svg{
+		height:50px;
+		width:50px;
+	}
+	
+	#testimonials svg circle{
+		cx: 25px;
+		cy: 25px;
+		r: 10px;
+	}
+
+	#fees h2{
+		padding: 0 10vw;
+		margin-bottom: 3vh;
+	}
+
+	#fees h2 span{
+		font-size: 25px;
+	}
+
+
+	#fees .card{
+		width:80%;
+		border-radius: 25px;
+		filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.2));
+		height: 40vh;
+	}
+
+
+	#learn_more{
+		padding-bottom: 30vh;
+	}
+
+	#learn_more h2{
+		padding: 0 10vw;
+		margin-bottom: 3vh;
+	}
+
+	#learn_more h2 span{
+		font-size: 25px;
+	}
+	
+	#learn_more button{
+		font-size:15px;
+		margin-bottom:5vh;
+		width:80%;
+
+	}
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	header{
+		padding: 0;
+		background-color: transparent;
+		position: relative !important;
+	}
+
+	header h2{
+		padding-top:2vh;
+		background-color: white;
+	}
+	
+	#burger{
+	    width: 47px;
+	    height: 34px;
+	    background-color: white;
+	    border:none;
+	}
+	#burger .line{
+	    width: 100%;
+	    float: left;
+	    height: 2px;
+	    background-color: #fff;
+	    margin-bottom: 5px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	header{
+		position:fixed !important;
+		background-color: white;
+
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	header{
+		position:fixed !important;
+		background-color: white;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	header{
+		position:fixed !important;
+		background-color: white;
+	}
+
+	#all-in-on h2 span{
+		font-size: 40px;
+	}
+
+
+	#features h2 span{
+		font-size: 40px;
+	}
+
+	#marketplace .bigger{
+		font-size: 25px;
+	}
+
+	#testimonials h2 span{
+		font-size: 40px;
+	}
+
+	#fees h2 span{
+		font-size: 40px;
+	}
+
+	#learn_more h2 span{
+		font-size: 40px;
+	}
 }
